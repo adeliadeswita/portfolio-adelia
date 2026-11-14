@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="100%" height="100%" style="background:#F1F5F9; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  
+    <!-- Top Looker Studio Navigation &amp; Filter Bar -->
+    <rect x="0" y="0" width="1200" height="64" fill="#0A2540"/>
+    <g transform="translate(24, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#2563EB"/>
+      <path d="M8 14 L14 8 L20 14 L14 20 Z" fill="#FFFFFF"/>
+      <text x="36" y="19" fill="#FFFFFF" font-size="16" font-weight="800" letter-spacing="0.5">TIKTOK SHOP BI</text>
+      <text x="175" y="19" fill="#64748B" font-size="12">|</text>
+      <text x="190" y="19" fill="#E2E8F0" font-size="13" font-weight="600">Video Deep-Dive – Scale, Fix or Stop Decision Matrix</text>
+    </g>
+
+    <!-- Filters in Top Bar -->
+    <g transform="translate(730, 16)">
+      <!-- Date Picker Mock -->
+      <rect x="0" y="0" width="165" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="12" y="20" fill="#E2E8F0" font-size="11">Sep 1 – Nov 30, 2026</text>
+      <path d="M152 19 L156 14 L148 14 Z" fill="#94A3B8"/>
+
+      <!-- Brand Picker Mock -->
+      <rect x="175" y="0" width="150" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="187" y="20" fill="#38BDF8" font-size="11" font-weight="600">All 22 Brands</text>
+      <path d="M312 19 L316 14 L308 14 Z" fill="#94A3B8"/>
+
+      <!-- Dummy Demo Pill -->
+      <rect x="335" y="0" width="110" height="32" rx="16" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+      <text x="390" y="20" fill="#A7F3D0" font-size="10.5" font-weight="700" text-anchor="middle">SYNTHETIC DEMO</text>
+    </g>
+
+    <!-- Subheader Notice -->
+    <rect x="0" y="64" width="1200" height="26" fill="#0F172A"/>
+    <text x="24" y="81" fill="#94A3B8" font-size="10" font-weight="600">🔒 DEMONSTRATION SUITE • All Client Identities &amp; Figures Masked for Confidentiality Compliance • Source: BigQuery Data Mart</text>
+  
+
+  <!-- 5 Video KPI Cards -->
+  
+    <g transform="translate(24, 105)">
+      <rect x="0" y="0" width="220" height="74" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="22" fill="#64748B" font-size="11" font-weight="600">Video Orders Tracked</text>
+      <text x="16" y="46" fill="#0F172A" font-size="17" font-weight="800">4.5M Orders</text>
+      <text x="16" y="63" fill="#EF4444" font-size="10.5" font-weight="600">-7.4% vs prev month</text>
+    </g>
+  
+  
+    <g transform="translate(258, 105)">
+      <rect x="0" y="0" width="220" height="74" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="22" fill="#64748B" font-size="11" font-weight="600">Videos Evaluated</text>
+      <text x="16" y="46" fill="#0F172A" font-size="17" font-weight="800">1.38K Videos</text>
+      <text x="16" y="63" fill="#64748B" font-size="10.5" font-weight="600">-7.2% vs prev month</text>
+    </g>
+  
+  
+    <g transform="translate(492, 105)">
+      <rect x="0" y="0" width="220" height="74" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="22" fill="#64748B" font-size="11" font-weight="600">Total Video Views</text>
+      <text x="16" y="46" fill="#0F172A" font-size="17" font-weight="800">325.4M Views</text>
+      <text x="16" y="63" fill="#10B981" font-size="10.5" font-weight="600">+168.2% viral impressions</text>
+    </g>
+  
+  
+    <g transform="translate(726, 105)">
+      <rect x="0" y="0" width="220" height="74" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="22" fill="#64748B" font-size="11" font-weight="600">Avg Duration</text>
+      <text x="16" y="46" fill="#0F172A" font-size="17" font-weight="800">28.5 Secs</text>
+      <text x="16" y="63" fill="#64748B" font-size="10.5" font-weight="600">Optimal short-form length</text>
+    </g>
+  
+  
+    <g transform="translate(960, 105)">
+      <rect x="0" y="0" width="216" height="74" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="16" y="22" fill="#64748B" font-size="11" font-weight="600">Video Conversion Rate</text>
+      <text x="16" y="46" fill="#0F172A" font-size="17" font-weight="800">2.85%</text>
+      <text x="16" y="63" fill="#10B981" font-size="10.5" font-weight="600">+28.5% efficiency lift</text>
+    </g>
+  
+
+  <!-- Left: Which videos to scale, fix or stop? Bubble Chart -->
+  <g transform="translate(24, 195)">
+    <rect x="0" y="0" width="560" height="535" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="14" font-weight="700">Which videos to scale, fix or stop? (Decision Matrix)</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Sumbu X: Views • Sumbu Y: Click-Through Rate • Ukuran Bubble: Total GMV</text>
+
+    <!-- Quadrant Background Zones -->
+    <!-- Top-Right: SCALE (High Views, High CTR) -->
+    <rect x="280" y="70" width="250" height="190" fill="#ECFDF5" opacity="0.6"/>
+    <text x="510" y="95" fill="#047857" font-size="12" font-weight="800" text-anchor="end">SCALE &amp; BOOST AD</text>
+
+    <!-- Top-Left: FIX HOOK (Low Views, High CTR) -->
+    <rect x="60" y="70" width="220" height="190" fill="#EFF6FF" opacity="0.6"/>
+    <text x="75" y="95" fill="#1D4ED8" font-size="12" font-weight="800">FIX HOOK / DISTRIBUTE</text>
+
+    <!-- Bottom-Right: FIX CTA (High Views, Low CTR) -->
+    <rect x="280" y="260" width="250" height="190" fill="#FEF3C7" opacity="0.6"/>
+    <text x="510" y="435" fill="#B45309" font-size="12" font-weight="800" text-anchor="end">FIX PRODUCT CTA</text>
+
+    <!-- Bottom-Left: STOP (Low Views, Low CTR) -->
+    <rect x="60" y="260" width="220" height="190" fill="#FFF1F2" opacity="0.6"/>
+    <text x="75" y="435" fill="#E11D48" font-size="12" font-weight="800">STOP / PRUNE</text>
+
+    <!-- Center Decision Threshold Line -->
+    <line x1="60" y1="260" x2="530" y2="260" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <line x1="280" y1="70" x2="280" y2="450" stroke="#64748B" stroke-width="1.5" stroke-dasharray="4 2"/>
+
+    <!-- Y Axis Labels: CTR -->
+    <text x="50" y="75" fill="#64748B" font-size="9.5" text-anchor="end">1.2%</text>
+    <text x="50" y="170" fill="#64748B" font-size="9.5" text-anchor="end">0.8%</text>
+    <text x="50" y="264" fill="#0F172A" font-size="9.5" font-weight="700" text-anchor="end">0.4%</text>
+    <text x="50" y="355" fill="#64748B" font-size="9.5" text-anchor="end">0.2%</text>
+    <text x="50" y="450" fill="#64748B" font-size="9.5" text-anchor="end">0%</text>
+
+    <!-- X Axis Labels: Views -->
+    <text x="60" y="475" fill="#64748B" font-size="9.5">10K</text>
+    <text x="280" y="475" fill="#0F172A" font-size="9.5" font-weight="700" text-anchor="middle">5M Views</text>
+    <text x="520" y="475" fill="#64748B" font-size="9.5" text-anchor="end">50M+</text>
+
+    <!-- Bubbles -->
+    <!-- Bubble 1 (SCALE - Winner Video) -->
+    <circle cx="390" cy="140" r="32" fill="#8B5CF6" opacity="0.75" stroke="#7C3AED" stroke-width="2"/>
+    <text x="390" y="144" fill="#FFFFFF" font-size="10" font-weight="800" text-anchor="middle">3.8K Orders</text>
+
+    <!-- Bubble 2 (SCALE) -->
+    <circle cx="340" cy="190" r="24" fill="#3B82F6" opacity="0.75"/>
+    <text x="340" y="194" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle">2.4K Orders</text>
+
+    <!-- Cluster in Fix CTA (High views, sub-threshold CTR) -->
+    <circle cx="410" cy="300" r="28" fill="#10B981" opacity="0.6"/>
+    <circle cx="430" cy="320" r="22" fill="#F59E0B" opacity="0.6"/>
+    <circle cx="390" cy="330" r="20" fill="#EC4899" opacity="0.6"/>
+
+    <!-- Small cluster in Stop -->
+    <circle cx="160" cy="370" r="14" fill="#94A3B8" opacity="0.6"/>
+    <circle cx="210" cy="340" r="16" fill="#F43F5E" opacity="0.6"/>
+
+    <text x="24" y="515" fill="#64748B" font-size="10.5">Threshold benchmark: 0.4% CTR • Bubble size directly proportional to SKU orders</text>
+  </g>
+
+  <!-- Right: How long do videos keep selling? (Days Decay Bar Chart) -->
+  <g transform="translate(604, 195)">
+    <rect x="0" y="0" width="572" height="535" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="14" font-weight="700">How long do videos keep selling? (GMV Decay)</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Attributed sales volume by days elapsed since video publication</text>
+
+    <!-- Y Axis: 0 to 100M -->
+    <line x1="55" y1="450" x2="530" y2="450" stroke="#CBD5E1" stroke-width="1"/>
+    <line x1="55" y1="350" x2="530" y2="350" stroke="#F1F5F9" stroke-width="1"/>
+    <line x1="55" y1="250" x2="530" y2="250" stroke="#F1F5F9" stroke-width="1"/>
+    <line x1="55" y1="150" x2="530" y2="150" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="45" y="454" fill="#94A3B8" font-size="10" text-anchor="end">0</text>
+    <text x="45" y="354" fill="#94A3B8" font-size="10" text-anchor="end">30M</text>
+    <text x="45" y="254" fill="#94A3B8" font-size="10" text-anchor="end">60M</text>
+    <text x="45" y="154" fill="#94A3B8" font-size="10" text-anchor="end">100M</text>
+
+    <!-- Decay Bars: Days 0 to 8+ -->
+    
+        <rect x="70" y="418" width="36" height="32" fill="#3B82F6" rx="3"/>
+        <text x="88" y="410" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">8.1M</text>
+        <text x="88" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 0</text>
+      
+        <rect x="121" y="120" width="36" height="330" fill="#1D4ED8" rx="3"/>
+        <text x="139" y="112" fill="#1D4ED8" font-size="9.5" font-weight="800" text-anchor="middle">92.6M (PEAK)</text>
+        <text x="139" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 1</text>
+      
+        <rect x="172" y="230" width="36" height="220" fill="#3B82F6" rx="3"/>
+        <text x="190" y="222" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">64.9M</text>
+        <text x="190" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 2</text>
+      
+        <rect x="223" y="215" width="36" height="235" fill="#3B82F6" rx="3"/>
+        <text x="241" y="207" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">68.8M</text>
+        <text x="241" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 3</text>
+      
+        <rect x="274" y="270" width="36" height="180" fill="#3B82F6" rx="3"/>
+        <text x="292" y="262" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">52.7M</text>
+        <text x="292" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 4</text>
+      
+        <rect x="325" y="285" width="36" height="165" fill="#3B82F6" rx="3"/>
+        <text x="343" y="277" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">48.3M</text>
+        <text x="343" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 5</text>
+      
+        <rect x="376" y="240" width="36" height="210" fill="#3B82F6" rx="3"/>
+        <text x="394" y="232" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">61.8M</text>
+        <text x="394" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 6</text>
+      
+        <rect x="427" y="345" width="36" height="105" fill="#3B82F6" rx="3"/>
+        <text x="445" y="337" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">31.7M</text>
+        <text x="445" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 7</text>
+      
+        <rect x="478" y="370" width="36" height="80" fill="#3B82F6" rx="3"/>
+        <text x="496" y="362" fill="#475569" font-size="8.5" font-weight="600" text-anchor="middle">22.8M</text>
+        <text x="496" y="470" fill="#64748B" font-size="9" text-anchor="middle">Day 8+</text>
+      
+
+    <!-- Strategic Decay Callout Box -->
+    <g transform="translate(24, 490)">
+      <rect x="0" y="0" width="524" height="35" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="12" y="22" fill="#1E293B" font-size="10.5"><strong>Insight:</strong> Videos peak on Day 1 (3.8K Orders) and sustain 2K+ orders through Day 6 before decaying.</text>
+    </g>
+  </g>
+</svg>

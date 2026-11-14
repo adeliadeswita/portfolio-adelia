@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="100%" height="100%" style="background:#F1F5F9; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  
+    <!-- Top Looker Studio Navigation &amp; Filter Bar -->
+    <rect x="0" y="0" width="1200" height="64" fill="#0A2540"/>
+    <g transform="translate(24, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#2563EB"/>
+      <path d="M8 14 L14 8 L20 14 L14 20 Z" fill="#FFFFFF"/>
+      <text x="36" y="19" fill="#FFFFFF" font-size="16" font-weight="800" letter-spacing="0.5">TIKTOK SHOP BI</text>
+      <text x="175" y="19" fill="#64748B" font-size="12">|</text>
+      <text x="190" y="19" fill="#E2E8F0" font-size="13" font-weight="600">GMV Breakdown by Brand – Monthly Channel Pivot</text>
+    </g>
+
+    <!-- Filters in Top Bar -->
+    <g transform="translate(730, 16)">
+      <!-- Date Picker Mock -->
+      <rect x="0" y="0" width="165" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="12" y="20" fill="#E2E8F0" font-size="11">Sep 1 – Nov 30, 2026</text>
+      <path d="M152 19 L156 14 L148 14 Z" fill="#94A3B8"/>
+
+      <!-- Brand Picker Mock -->
+      <rect x="175" y="0" width="150" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="187" y="20" fill="#38BDF8" font-size="11" font-weight="600">All 22 Brands</text>
+      <path d="M312 19 L316 14 L308 14 Z" fill="#94A3B8"/>
+
+      <!-- Dummy Demo Pill -->
+      <rect x="335" y="0" width="110" height="32" rx="16" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+      <text x="390" y="20" fill="#A7F3D0" font-size="10.5" font-weight="700" text-anchor="middle">SYNTHETIC DEMO</text>
+    </g>
+
+    <!-- Subheader Notice -->
+    <rect x="0" y="64" width="1200" height="26" fill="#0F172A"/>
+    <text x="24" y="81" fill="#94A3B8" font-size="10" font-weight="600">🔒 DEMONSTRATION SUITE • All Client Identities &amp; Figures Masked for Confidentiality Compliance • Source: BigQuery Data Mart</text>
+  
+
+  <g transform="translate(24, 105)">
+    <rect x="0" y="0" width="1152" height="625" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="15" font-weight="700">Monthly GMV Matrix by Brand &amp; Sales Channel (Sep – Nov 2026)</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Anonymized cross-brand revenue benchmark showing channel mix and month-over-month trajectory</text>
+
+    <!-- Matrix Header Rows -->
+    <rect x="20" y="70" width="1112" height="28" fill="#0F172A"/>
+    <text x="35" y="88" fill="#FFFFFF" font-size="10.5" font-weight="700">BRAND (ANONYMIZED)</text>
+    
+    <!-- Oct 2026 Section -->
+    <rect x="220" y="72" width="300" height="24" fill="#1E3A8A" rx="2"/>
+    <text x="370" y="88" fill="#FFFFFF" font-size="10.5" font-weight="700" text-anchor="middle">OCTOBER 2026 (PEAK CAMPAIGN)</text>
+
+    <!-- Sep 2026 Section -->
+    <rect x="530" y="72" width="300" height="24" fill="#1E293B" rx="2"/>
+    <text x="680" y="88" fill="#FFFFFF" font-size="10.5" font-weight="700" text-anchor="middle">SEPTEMBER 2026</text>
+
+    <!-- Nov 2026 Section -->
+    <rect x="840" y="72" width="280" height="24" fill="#1E293B" rx="2"/>
+    <text x="980" y="88" fill="#FFFFFF" font-size="10.5" font-weight="700" text-anchor="middle">NOVEMBER 2026 (PARTIAL)</text>
+
+    <!-- Subheaders -->
+    <rect x="20" y="98" width="1112" height="24" fill="#F8FAFC"/>
+    <text x="230" y="114" fill="#475569" font-size="9" font-weight="700">TOTAL GMV</text>
+    <text x="310" y="114" fill="#475569" font-size="9" font-weight="700">LIVE</text>
+    <text x="385" y="114" fill="#475569" font-size="9" font-weight="700">VIDEO</text>
+    <text x="460" y="114" fill="#475569" font-size="9" font-weight="700">CARD</text>
+
+    <text x="540" y="114" fill="#475569" font-size="9" font-weight="700">TOTAL GMV</text>
+    <text x="620" y="114" fill="#475569" font-size="9" font-weight="700">LIVE</text>
+    <text x="695" y="114" fill="#475569" font-size="9" font-weight="700">VIDEO</text>
+    <text x="770" y="114" fill="#475569" font-size="9" font-weight="700">CARD</text>
+
+    <text x="850" y="114" fill="#475569" font-size="9" font-weight="700">TOTAL GMV</text>
+    <text x="930" y="114" fill="#475569" font-size="9" font-weight="700">LIVE</text>
+    <text x="1005" y="114" fill="#475569" font-size="9" font-weight="700">VIDEO</text>
+
+    <!-- Brand Rows -->
+    
+        <rect x="20" y="127" width="1112" height="38" fill="#FFFFFF"/>
+        <text x="35" y="149" fill="#1E293B" font-size="10.5" font-weight="700">Brand Alpha (Personal Care)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="131" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="149" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">1,420K</text>
+        <text x="325" y="149" fill="#475569" font-size="10">24.5B</text>
+        <text x="400" y="149" fill="#475569" font-size="10">19.8B</text>
+        <text x="475" y="149" fill="#475569" font-size="10">10.5B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="149" fill="#334155" font-size="10.5" font-weight="600">1,280K</text>
+        <text x="635" y="149" fill="#64748B" font-size="10">21.4B</text>
+        <text x="710" y="149" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="149" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="149" fill="#334155" font-size="10.5" font-weight="600">980K</text>
+        <text x="945" y="149" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="149" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="167" width="1112" height="38" fill="#F8FAFC"/>
+        <text x="35" y="189" fill="#1E293B" font-size="10.5" font-weight="700">Brand Beta (Electronics)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="171" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="189" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">890K</text>
+        <text x="325" y="189" fill="#475569" font-size="10">14.2B</text>
+        <text x="400" y="189" fill="#475569" font-size="10">10.5B</text>
+        <text x="475" y="189" fill="#475569" font-size="10">6.5B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="189" fill="#334155" font-size="10.5" font-weight="600">820K</text>
+        <text x="635" y="189" fill="#64748B" font-size="10">12.8B</text>
+        <text x="710" y="189" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="189" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="189" fill="#334155" font-size="10.5" font-weight="600">620K</text>
+        <text x="945" y="189" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="189" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="207" width="1112" height="38" fill="#FFFFFF"/>
+        <text x="35" y="229" fill="#1E293B" font-size="10.5" font-weight="700">Brand Gamma (Home &amp; Living)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="211" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="229" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">640K</text>
+        <text x="325" y="229" fill="#475569" font-size="10">8.1B</text>
+        <text x="400" y="229" fill="#475569" font-size="10">11.2B</text>
+        <text x="475" y="229" fill="#475569" font-size="10">3.2B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="229" fill="#334155" font-size="10.5" font-weight="600">560K</text>
+        <text x="635" y="229" fill="#64748B" font-size="10">7.2B</text>
+        <text x="710" y="229" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="229" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="229" fill="#334155" font-size="10.5" font-weight="600">470K</text>
+        <text x="945" y="229" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="229" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="247" width="1112" height="38" fill="#F8FAFC"/>
+        <text x="35" y="269" fill="#1E293B" font-size="10.5" font-weight="700">Brand Delta (Fragrance)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="251" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="269" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">480K</text>
+        <text x="325" y="269" fill="#475569" font-size="10">4.8B</text>
+        <text x="400" y="269" fill="#475569" font-size="10">8.2B</text>
+        <text x="475" y="269" fill="#475569" font-size="10">3.4B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="269" fill="#334155" font-size="10.5" font-weight="600">410K</text>
+        <text x="635" y="269" fill="#64748B" font-size="10">3.9B</text>
+        <text x="710" y="269" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="269" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="269" fill="#334155" font-size="10.5" font-weight="600">330K</text>
+        <text x="945" y="269" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="269" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="287" width="1112" height="38" fill="#FFFFFF"/>
+        <text x="35" y="309" fill="#1E293B" font-size="10.5" font-weight="700">Brand Epsilon (Health &amp; OTC)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="291" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="309" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">480K Orders</text>
+        <text x="325" y="309" fill="#475569" font-size="10">3.6B</text>
+        <text x="400" y="309" fill="#475569" font-size="10">7.4B</text>
+        <text x="475" y="309" fill="#475569" font-size="10">1.8B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="309" fill="#334155" font-size="10.5" font-weight="600">330K</text>
+        <text x="635" y="309" fill="#64748B" font-size="10">3.1B</text>
+        <text x="710" y="309" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="309" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="309" fill="#334155" font-size="10.5" font-weight="600">260K</text>
+        <text x="945" y="309" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="309" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="327" width="1112" height="38" fill="#F8FAFC"/>
+        <text x="35" y="349" fill="#1E293B" font-size="10.5" font-weight="700">Brand Zeta (FMCG Foods)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="331" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="349" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">280K</text>
+        <text x="325" y="349" fill="#475569" font-size="10">2.8B</text>
+        <text x="400" y="349" fill="#475569" font-size="10">4.5B</text>
+        <text x="475" y="349" fill="#475569" font-size="10">2.2B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="349" fill="#334155" font-size="10.5" font-weight="600">250K</text>
+        <text x="635" y="349" fill="#64748B" font-size="10">2.4B</text>
+        <text x="710" y="349" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="349" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="349" fill="#334155" font-size="10.5" font-weight="600">200K</text>
+        <text x="945" y="349" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="349" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="367" width="1112" height="38" fill="#FFFFFF"/>
+        <text x="35" y="389" fill="#1E293B" font-size="10.5" font-weight="700">Brand Eta (Mother &amp; Baby)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="371" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="389" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">240K</text>
+        <text x="325" y="389" fill="#475569" font-size="10">2.1B</text>
+        <text x="400" y="389" fill="#475569" font-size="10">3.8B</text>
+        <text x="475" y="389" fill="#475569" font-size="10">2.3B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="389" fill="#334155" font-size="10.5" font-weight="600">210K</text>
+        <text x="635" y="389" fill="#64748B" font-size="10">1.9B</text>
+        <text x="710" y="389" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="389" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="389" fill="#334155" font-size="10.5" font-weight="600">160K</text>
+        <text x="945" y="389" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="389" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="407" width="1112" height="38" fill="#F8FAFC"/>
+        <text x="35" y="429" fill="#1E293B" font-size="10.5" font-weight="700">Brand Theta (Skincare)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="411" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="429" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">200K</text>
+        <text x="325" y="429" fill="#475569" font-size="10">1.8B</text>
+        <text x="400" y="429" fill="#475569" font-size="10">3.2B</text>
+        <text x="475" y="429" fill="#475569" font-size="10">1.8B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="429" fill="#334155" font-size="10.5" font-weight="600">180K</text>
+        <text x="635" y="429" fill="#64748B" font-size="10">1.6B</text>
+        <text x="710" y="429" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="429" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="429" fill="#334155" font-size="10.5" font-weight="600">130K</text>
+        <text x="945" y="429" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="429" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="447" width="1112" height="38" fill="#FFFFFF"/>
+        <text x="35" y="469" fill="#1E293B" font-size="10.5" font-weight="700">Brand Iota (Cosmetics)</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="451" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="469" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">160K</text>
+        <text x="325" y="469" fill="#475569" font-size="10">1.4B</text>
+        <text x="400" y="469" fill="#475569" font-size="10">2.6B</text>
+        <text x="475" y="469" fill="#475569" font-size="10">1.4B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="469" fill="#334155" font-size="10.5" font-weight="600">140K</text>
+        <text x="635" y="469" fill="#64748B" font-size="10">1.2B</text>
+        <text x="710" y="469" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="469" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="469" fill="#334155" font-size="10.5" font-weight="600">110K</text>
+        <text x="945" y="469" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="469" fill="#64748B" font-size="10">5.8B</text>
+      
+        <rect x="20" y="487" width="1112" height="38" fill="#F8FAFC"/>
+        <text x="35" y="509" fill="#1E293B" font-size="10.5" font-weight="700">Remaining 13 Brands Total</text>
+        
+        <!-- Oct cell with heatmap fill -->
+        <rect x="225" y="491" width="75" height="28" rx="4" fill="#DBEAFE"/>
+        <text x="262" y="509" fill="#1D4ED8" font-size="10.5" font-weight="800" text-anchor="middle">850K</text>
+        <text x="325" y="509" fill="#475569" font-size="10">8.2B</text>
+        <text x="400" y="509" fill="#475569" font-size="10">13.4B</text>
+        <text x="475" y="509" fill="#475569" font-size="10">6.9B</text>
+
+        <!-- Sep cell -->
+        <text x="560" y="509" fill="#334155" font-size="10.5" font-weight="600">720K</text>
+        <text x="635" y="509" fill="#64748B" font-size="10">6.8B</text>
+        <text x="710" y="509" fill="#64748B" font-size="10">8.2B</text>
+        <text x="785" y="509" fill="#64748B" font-size="10">5.1B</text>
+
+        <!-- Nov cell -->
+        <text x="870" y="509" fill="#334155" font-size="10.5" font-weight="600">560K</text>
+        <text x="945" y="509" fill="#64748B" font-size="10">7.2B</text>
+        <text x="1020" y="509" fill="#64748B" font-size="10">5.8B</text>
+      
+
+    <!-- Total Row -->
+    <rect x="20" y="555" width="1112" height="42" rx="4" fill="#0F172A"/>
+    <text x="35" y="581" fill="#FFFFFF" font-size="11.5" font-weight="800">Grand Total (22 Brands)</text>
+    <text x="262" y="581" fill="#38BDF8" font-size="12" font-weight="800" text-anchor="middle">5.6M Orders</text>
+    <text x="325" y="581" fill="#FFFFFF" font-size="11" font-weight="700">81.5B</text>
+    <text x="400" y="581" fill="#FFFFFF" font-size="11" font-weight="700">81.2B</text>
+    <text x="475" y="581" fill="#FFFFFF" font-size="11" font-weight="700">33.4B</text>
+    <text x="560" y="581" fill="#FFFFFF" font-size="11" font-weight="700">4.9M Orders</text>
+    <text x="870" y="581" fill="#FFFFFF" font-size="11" font-weight="700">3.8M Orders</text>
+  </g>
+</svg>

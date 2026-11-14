@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <rect width="1000" height="600" fill="#F8F7F4" rx="16"/>
+  <rect x="40" y="40" width="920" height="520" rx="12" fill="#FFFFFF" stroke="#EAE8E2" stroke-width="2"/>
+  <text x="70" y="80" font-family="sans-serif" font-size="18" font-weight="700" fill="#343630">Uber H3 Spatial Hexagon Grid Density (Greater Bandung)</text>
+  
+  <g transform="translate(100, 120)">
+    <!-- Hex grid pattern -->
+    <path d="M100,80 L130,60 L160,80 L160,115 L130,135 L100,115 Z" fill="#DCE5DD" stroke="#A8C4B0"/>
+    <path d="M160,80 L190,60 L220,80 L220,115 L190,135 L160,115 Z" fill="#A8C4B0" stroke="#77766F"/>
+    <path d="M220,80 L250,60 L280,80 L280,115 L250,135 L220,115 Z" fill="#343630" stroke="#242621"/>
+    <path d="M280,80 L310,60 L340,80 L340,115 L310,135 L280,115 Z" fill="#343630" stroke="#242621"/>
+    <path d="M340,80 L370,60 L400,80 L400,115 L370,135 L340,115 Z" fill="#A8C4B0" stroke="#77766F"/>
+
+    <path d="M130,135 L160,115 L190,135 L190,170 L160,190 L130,170 Z" fill="#A8C4B0" stroke="#77766F"/>
+    <path d="M190,135 L220,115 L250,135 L250,170 L220,190 L190,170 Z" fill="#343630" stroke="#242621"/>
+    <path d="M250,135 L280,115 L310,135 L310,170 L280,190 L250,170 Z" fill="#E8A782" stroke="#C86A3E"/>
+    <path d="M310,135 L340,115 L370,135 L370,170 L340,190 L310,170 Z" fill="#343630" stroke="#242621"/>
+    <path d="M370,135 L400,115 L430,135 L430,170 L400,190 L370,170 Z" fill="#DCE5DD" stroke="#A8C4B0"/>
+
+    <path d="M160,190 L190,170 L220,190 L220,225 L190,245 L160,225 Z" fill="#DCE5DD" stroke="#A8C4B0"/>
+    <path d="M220,190 L250,170 L280,190 L280,225 L250,245 L220,225 Z" fill="#343630" stroke="#242621"/>
+    <path d="M280,190 L310,170 L340,190 L340,225 L310,245 L280,225 Z" fill="#A8C4B0" stroke="#77766F"/>
+    <path d="M340,190 L370,170 L400,190 L400,225 L370,245 L340,225 Z" fill="#DCE5DD" stroke="#A8C4B0"/>
+
+    <!-- Legend -->
+    <g transform="translate(520, 80)">
+      <text x="0" y="20" font-family="sans-serif" font-size="14" font-weight="700" fill="#343630">H3 Hexagon Density Grain (Res 8)</text>
+      <rect x="0" y="45" width="20" height="20" rx="4" fill="#E8A782"/>
+      <text x="32" y="60" font-family="sans-serif" font-size="12" fill="#343630">&gt; 1,200 Customers / km² (Core Hotspot)</text>
+
+      <rect x="0" y="80" width="20" height="20" rx="4" fill="#343630"/>
+      <text x="32" y="95" font-family="sans-serif" font-size="12" fill="#343630">600 — 1,200 Customers / km² (High Density)</text>
+
+      <rect x="0" y="115" width="20" height="20" rx="4" fill="#A8C4B0"/>
+      <text x="32" y="130" font-family="sans-serif" font-size="12" fill="#343630">200 — 600 Customers / km² (Moderate)</text>
+
+      <rect x="0" y="150" width="20" height="20" rx="4" fill="#DCE5DD"/>
+      <text x="32" y="165" font-family="sans-serif" font-size="12" fill="#343630">&lt; 200 Customers / km² (Sparse)</text>
+    </g>
+  </g>
+</svg>

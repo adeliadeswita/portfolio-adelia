@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="100%" height="100%" style="background:#F1F5F9; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  
+    <!-- Top Looker Studio Navigation &amp; Filter Bar -->
+    <rect x="0" y="0" width="1200" height="64" fill="#0A2540"/>
+    <g transform="translate(24, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#2563EB"/>
+      <path d="M8 14 L14 8 L20 14 L14 20 Z" fill="#FFFFFF"/>
+      <text x="36" y="19" fill="#FFFFFF" font-size="16" font-weight="800" letter-spacing="0.5">TIKTOK SHOP BI</text>
+      <text x="175" y="19" fill="#64748B" font-size="12">|</text>
+      <text x="190" y="19" fill="#E2E8F0" font-size="13" font-weight="600">Product Sold Through Content – Channel Attribution</text>
+    </g>
+
+    <!-- Filters in Top Bar -->
+    <g transform="translate(730, 16)">
+      <!-- Date Picker Mock -->
+      <rect x="0" y="0" width="165" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="12" y="20" fill="#E2E8F0" font-size="11">Sep 1 – Nov 30, 2026</text>
+      <path d="M152 19 L156 14 L148 14 Z" fill="#94A3B8"/>
+
+      <!-- Brand Picker Mock -->
+      <rect x="175" y="0" width="150" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="187" y="20" fill="#38BDF8" font-size="11" font-weight="600">All 22 Brands</text>
+      <path d="M312 19 L316 14 L308 14 Z" fill="#94A3B8"/>
+
+      <!-- Dummy Demo Pill -->
+      <rect x="335" y="0" width="110" height="32" rx="16" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+      <text x="390" y="20" fill="#A7F3D0" font-size="10.5" font-weight="700" text-anchor="middle">SYNTHETIC DEMO</text>
+    </g>
+
+    <!-- Subheader Notice -->
+    <rect x="0" y="64" width="1200" height="26" fill="#0F172A"/>
+    <text x="24" y="81" fill="#94A3B8" font-size="10" font-weight="600">🔒 DEMONSTRATION SUITE • All Client Identities &amp; Figures Masked for Confidentiality Compliance • Source: BigQuery Data Mart</text>
+  
+
+  <g transform="translate(24, 105)">
+    <rect x="0" y="0" width="1152" height="625" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="15" font-weight="700">Top Products Sold Through Content (Affiliate vs Official Split)</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Evaluating SKU sales velocity attributed to creator affiliate videos versus official live broadcasts</text>
+
+    <rect x="20" y="70" width="1112" height="28" fill="#0F172A"/>
+    <text x="35" y="88" fill="#FFFFFF" font-size="10" font-weight="700">PRODUCT ITEM / SKU DESCRIPTION</text>
+    <text x="560" y="88" fill="#FDBA74" font-size="10" font-weight="700">GMV AFFILIATE CREATORS</text>
+    <text x="820" y="88" fill="#93C5FD" font-size="10" font-weight="700">GMV OFFICIAL STORE</text>
+    <text x="1020" y="88" fill="#A7F3D0" font-size="10" font-weight="700">TOTAL CONTENT GMV</text>
+
+    
+        <rect x="20" y="107" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="131" fill="#1E293B" font-size="10.5" font-weight="600">[NEW HERO] Refreshing Body Wash Refill 800ml Duo Pack</text>
+        <text x="560" y="131" fill="#C2410C" font-size="11" font-weight="700">58.2K Units</text>
+        <text x="820" y="131" fill="#1D4ED8" font-size="11" font-weight="700">21.4K Units</text>
+        <text x="1020" y="131" fill="#065F46" font-size="11.5" font-weight="800">79.6K Units</text>
+      
+        <rect x="20" y="149" width="1112" height="40" fill="#F8FAFC"/>
+        <text x="35" y="173" fill="#1E293B" font-size="10.5" font-weight="600">[EXCLUSIVE CREATOR BUNDLE] Herbal Relief Roll-On 10ml Pack of 3</text>
+        <text x="560" y="173" fill="#C2410C" font-size="11" font-weight="700">52.1K Units</text>
+        <text x="820" y="173" fill="#1D4ED8" font-size="11" font-weight="700">39.8K Units</text>
+        <text x="1020" y="173" fill="#065F46" font-size="11.5" font-weight="800">91.9K Units</text>
+      
+        <rect x="20" y="191" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="215" fill="#1E293B" font-size="10.5" font-weight="600">Top-Load Smart Washing Machine 8.5kg Inverter Model</text>
+        <text x="560" y="215" fill="#C2410C" font-size="11" font-weight="700">38.4K Units</text>
+        <text x="820" y="215" fill="#1D4ED8" font-size="11" font-weight="700">2.2K Units</text>
+        <text x="1020" y="215" fill="#065F46" font-size="11.5" font-weight="800">39.8K Units</text>
+      
+        <rect x="20" y="233" width="1112" height="40" fill="#F8FAFC"/>
+        <text x="35" y="257" fill="#1E293B" font-size="10.5" font-weight="600">High-Performance 4G Android Tablet 10.1-inch with Kids Mode</text>
+        <text x="560" y="257" fill="#C2410C" font-size="11" font-weight="700">35.1K Units</text>
+        <text x="820" y="257" fill="#1D4ED8" font-size="11" font-weight="700">480 Units</text>
+        <text x="1020" y="257" fill="#065F46" font-size="11.5" font-weight="800">35.6K Units</text>
+      
+        <rect x="20" y="275" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="299" fill="#1E293B" font-size="10.5" font-weight="600">Compact Quad-Core Smartphone 6.5-inch 128GB Storage</text>
+        <text x="560" y="299" fill="#C2410C" font-size="11" font-weight="700">32.4K Units</text>
+        <text x="820" y="299" fill="#1D4ED8" font-size="11" font-weight="700">890 Units</text>
+        <text x="1020" y="299" fill="#065F46" font-size="11.5" font-weight="800">33.3K Units</text>
+      
+        <rect x="20" y="317" width="1112" height="40" fill="#F8FAFC"/>
+        <text x="35" y="341" fill="#1E293B" font-size="10.5" font-weight="600">Creator Endorsement: Slim 5G Smartphone with AMOLED Display</text>
+        <text x="560" y="341" fill="#C2410C" font-size="11" font-weight="700">31.8K Units</text>
+        <text x="820" y="341" fill="#1D4ED8" font-size="11" font-weight="700">60 Units</text>
+        <text x="1020" y="341" fill="#065F46" font-size="11.5" font-weight="800">31.8K Units</text>
+      
+        <rect x="20" y="359" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="383" fill="#1E293B" font-size="10.5" font-weight="600">Dual-Wing Automatic Washing Machine 9kg Stainless Tub</text>
+        <text x="560" y="383" fill="#C2410C" font-size="11" font-weight="700">25.2K Units</text>
+        <text x="820" y="383" fill="#1D4ED8" font-size="11" font-weight="700">2.8K Units</text>
+        <text x="1020" y="383" fill="#065F46" font-size="11.5" font-weight="800">28.0K Units</text>
+      
+        <rect x="20" y="401" width="1112" height="40" fill="#F8FAFC"/>
+        <text x="35" y="425" fill="#1E293B" font-size="10.5" font-weight="600">Long-Lasting Eau De Parfum 100ml Luxury Scent Series</text>
+        <text x="560" y="425" fill="#C2410C" font-size="11" font-weight="700">19.8K Units</text>
+        <text x="820" y="425" fill="#1D4ED8" font-size="11" font-weight="700">320 Units</text>
+        <text x="1020" y="425" fill="#065F46" font-size="11.5" font-weight="800">20.1K Units</text>
+      
+        <rect x="20" y="443" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="467" fill="#1E293B" font-size="10.5" font-weight="600">Digital Airfryer 4.2L Low-Watt Non-Stick Basket</text>
+        <text x="560" y="467" fill="#C2410C" font-size="11" font-weight="700">18.9K Units</text>
+        <text x="820" y="467" fill="#1D4ED8" font-size="11" font-weight="700">8.8K Units</text>
+        <text x="1020" y="467" fill="#065F46" font-size="11.5" font-weight="800">27.7K Units</text>
+      
+        <rect x="20" y="485" width="1112" height="40" fill="#F8FAFC"/>
+        <text x="35" y="509" fill="#1E293B" font-size="10.5" font-weight="600">[BESTSELLER BUNDLE] Fragrance Mist + Perfume Body Oil Gift Set</text>
+        <text x="560" y="509" fill="#C2410C" font-size="11" font-weight="700">18.5K Units</text>
+        <text x="820" y="509" fill="#1D4ED8" font-size="11" font-weight="700">2.0K Units</text>
+        <text x="1020" y="509" fill="#065F46" font-size="11.5" font-weight="800">20.5K Units</text>
+      
+        <rect x="20" y="527" width="1112" height="40" fill="#FFFFFF"/>
+        <text x="35" y="551" fill="#1E293B" font-size="10.5" font-weight="600">Family Pack Disposable Diaper Pants Size L 44s</text>
+        <text x="560" y="551" fill="#C2410C" font-size="11" font-weight="700">17.3K Units</text>
+        <text x="820" y="551" fill="#1D4ED8" font-size="11" font-weight="700">10.5K Units</text>
+        <text x="1020" y="551" fill="#065F46" font-size="11.5" font-weight="800">27.8K Units</text>
+      
+
+    <!-- Summary Footnote -->
+    <g transform="translate(20, 580)">
+      <text x="10" y="16" fill="#64748B" font-size="10.5" font-style="italic">Tracking 10,392 active product SKUs • Affiliate creator networks represent 74.2% of total content-attributed product sales.</text>
+    </g>
+  </g>
+</svg>

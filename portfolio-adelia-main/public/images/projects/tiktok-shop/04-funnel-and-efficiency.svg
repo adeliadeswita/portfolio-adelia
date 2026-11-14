@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="100%" height="100%" style="background:#F1F5F9; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+  
+    <!-- Top Looker Studio Navigation &amp; Filter Bar -->
+    <rect x="0" y="0" width="1200" height="64" fill="#0A2540"/>
+    <g transform="translate(24, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="6" fill="#2563EB"/>
+      <path d="M8 14 L14 8 L20 14 L14 20 Z" fill="#FFFFFF"/>
+      <text x="36" y="19" fill="#FFFFFF" font-size="16" font-weight="800" letter-spacing="0.5">TIKTOK SHOP BI</text>
+      <text x="175" y="19" fill="#64748B" font-size="12">|</text>
+      <text x="190" y="19" fill="#E2E8F0" font-size="13" font-weight="600">Funnel &amp; Efficiency – LIVE vs Video Conversion</text>
+    </g>
+
+    <!-- Filters in Top Bar -->
+    <g transform="translate(730, 16)">
+      <!-- Date Picker Mock -->
+      <rect x="0" y="0" width="165" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="12" y="20" fill="#E2E8F0" font-size="11">Sep 1 – Nov 30, 2026</text>
+      <path d="M152 19 L156 14 L148 14 Z" fill="#94A3B8"/>
+
+      <!-- Brand Picker Mock -->
+      <rect x="175" y="0" width="150" height="32" rx="6" fill="#132F51" stroke="#254B78" stroke-width="1"/>
+      <text x="187" y="20" fill="#38BDF8" font-size="11" font-weight="600">All 22 Brands</text>
+      <path d="M312 19 L316 14 L308 14 Z" fill="#94A3B8"/>
+
+      <!-- Dummy Demo Pill -->
+      <rect x="335" y="0" width="110" height="32" rx="16" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+      <text x="390" y="20" fill="#A7F3D0" font-size="10.5" font-weight="700" text-anchor="middle">SYNTHETIC DEMO</text>
+    </g>
+
+    <!-- Subheader Notice -->
+    <rect x="0" y="64" width="1200" height="26" fill="#0F172A"/>
+    <text x="24" y="81" fill="#94A3B8" font-size="10" font-weight="600">🔒 DEMONSTRATION SUITE • All Client Identities &amp; Figures Masked for Confidentiality Compliance • Source: BigQuery Data Mart</text>
+  
+
+  <!-- Left: Funnel Step Rates -->
+  <g transform="translate(24, 105)">
+    <rect x="0" y="0" width="560" height="625" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="14" font-weight="700">Funnel Step Rates: LIVE vs Short Video</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Where does viewer drop-off occur between content exposure and checkout?</text>
+
+    <!-- Product CTR Benchmark -->
+    <g transform="translate(24, 80)">
+      <text x="0" y="0" fill="#1E293B" font-size="12" font-weight="700">Product CTR (Click-Through Rate)</text>
+      <text x="0" y="16" fill="#64748B" font-size="10.5">Ratio of viewers who click through to product details</text>
+
+      <text x="0" y="48" fill="#1D4ED8" font-size="11" font-weight="700">LIVE</text>
+      <rect x="50" y="36" width="380" height="24" rx="4" fill="#2563EB"/>
+      <text x="440" y="52" fill="#1D4ED8" font-size="11.5" font-weight="800">6.74% (9.5× Higher)</text>
+
+      <text x="0" y="90" fill="#EA580C" font-size="11" font-weight="700">VIDEO</text>
+      <rect x="50" y="78" width="40" height="24" rx="4" fill="#F97316"/>
+      <text x="100" y="94" fill="#EA580C" font-size="11.5" font-weight="800">0.71% (Bottleneck)</text>
+    </g>
+
+    <!-- Click to Order Benchmark (CTOR) -->
+    <g transform="translate(24, 230)">
+      <text x="0" y="0" fill="#1E293B" font-size="12" font-weight="700">Click → Order (CTOR)</text>
+      <text x="0" y="16" fill="#64748B" font-size="10.5">Conversion rate from product detail page to completed purchase</text>
+
+      <text x="0" y="48" fill="#1D4ED8" font-size="11" font-weight="700">LIVE</text>
+      <rect x="50" y="36" width="310" height="24" rx="4" fill="#2563EB"/>
+      <text x="370" y="52" fill="#1D4ED8" font-size="11.5" font-weight="800">9.14%</text>
+
+      <text x="0" y="90" fill="#EA580C" font-size="11" font-weight="700">VIDEO</text>
+      <rect x="50" y="78" width="292" height="24" rx="4" fill="#F97316"/>
+      <text x="352" y="94" fill="#EA580C" font-size="11.5" font-weight="800">8.62%</text>
+    </g>
+
+    <!-- Order Conversion Rate (CVR) -->
+    <g transform="translate(24, 380)">
+      <text x="0" y="0" fill="#1E293B" font-size="12" font-weight="700">Order Conversion Rate (CVR)</text>
+      
+      <text x="0" y="40" fill="#1D4ED8" font-size="11" font-weight="700">LIVE</text>
+      <rect x="50" y="28" width="320" height="22" rx="4" fill="#2563EB"/>
+      <text x="380" y="44" fill="#1D4ED8" font-size="11" font-weight="700">8.8%</text>
+
+      <text x="0" y="76" fill="#EA580C" font-size="11" font-weight="700">VIDEO</text>
+      <rect x="50" y="64" width="270" height="22" rx="4" fill="#F97316"/>
+      <text x="330" y="80" fill="#EA580C" font-size="11" font-weight="700">6.4%</text>
+    </g>
+
+    <!-- Key Takeaway -->
+    <g transform="translate(24, 495)">
+      <rect x="0" y="0" width="512" height="105" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1"/>
+      <text x="14" y="22" fill="#065F46" font-size="11.5" font-weight="700">Strategic Funnel Conclusion:</text>
+      <text x="14" y="42" fill="#047857" font-size="10.5">• Once shoppers click, Video converts almost as well as Live (8.6% vs 9.1%).</text>
+      <text x="14" y="60" fill="#047857" font-size="10.5">• The primary breakdown is video hook-to-click (0.71% vs 6.74%).</text>
+      <text x="14" y="82" fill="#065F46" font-size="10.5" font-weight="700">→ Action: Focus creative briefs on product pinning and yellow-cart calls to action.</text>
+    </g>
+  </g>
+
+  <!-- Right: Top Contributors Table -->
+  <g transform="translate(604, 105)">
+    <rect x="0" y="0" width="572" height="625" rx="8" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="32" fill="#0F172A" font-size="14" font-weight="700">Top Contributors – What Moved GMV vs Last Period?</text>
+    <text x="24" y="50" fill="#64748B" font-size="11.5">Top performing Live broadcast sessions and viral affiliate video content</text>
+
+    <!-- Table Header -->
+    <rect x="20" y="70" width="532" height="26" fill="#F8FAFC"/>
+    <text x="30" y="87" fill="#475569" font-size="9.5" font-weight="700">CONTENT TITLE / LABEL</text>
+    <text x="360" y="87" fill="#475569" font-size="9.5" font-weight="700">TYPE</text>
+    <text x="440" y="87" fill="#475569" font-size="9.5" font-weight="700">ATTRIBUTED GMV</text>
+
+    
+        <rect x="20" y="101" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="121" fill="#1E293B" font-size="10.5" font-weight="600">[HERO] 11.11 Mega Live Marathon Broadcast</text>
+        <rect x="360" y="109" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="123" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="122" fill="#0F172A" font-size="11" font-weight="700">24.5K Orders</text>
+      
+        <rect x="20" y="145" width="532" height="38" fill="#F8FAFC"/>
+        <text x="30" y="165" fill="#1E293B" font-size="10.5" font-weight="600">[SALE] Exclusive Beauty Brand Day Broadcast</text>
+        <rect x="360" y="153" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="167" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="166" fill="#0F172A" font-size="11" font-weight="700">16.2K Orders</text>
+      
+        <rect x="20" y="189" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="209" fill="#1E293B" font-size="10.5" font-weight="600">[BUNDLE] Payday Skincare Special Live Stream</text>
+        <rect x="360" y="197" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="211" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="210" fill="#0F172A" font-size="11" font-weight="700">12.8K Orders</text>
+      
+        <rect x="20" y="233" width="532" height="38" fill="#F8FAFC"/>
+        <text x="30" y="253" fill="#1E293B" font-size="10.5" font-weight="600">Viral Affiliate Review: Body Foam Deep Cleanse</text>
+        <rect x="360" y="241" width="50" height="20" rx="3" fill="#FFEDD5"/>
+        <text x="385" y="255" fill="#C2410C" font-size="9.5" font-weight="700" text-anchor="middle">VIDEO</text>
+        <text x="440" y="254" fill="#0F172A" font-size="11" font-weight="700">9.4K Orders</text>
+      
+        <rect x="20" y="277" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="297" fill="#1E293B" font-size="10.5" font-weight="600">Creator Showcase: Weekend Flash Promo Haul</text>
+        <rect x="360" y="285" width="50" height="20" rx="3" fill="#FFEDD5"/>
+        <text x="385" y="299" fill="#C2410C" font-size="9.5" font-weight="700" text-anchor="middle">VIDEO</text>
+        <text x="440" y="298" fill="#0F172A" font-size="11" font-weight="700">8.1K Orders</text>
+      
+        <rect x="20" y="321" width="532" height="38" fill="#F8FAFC"/>
+        <text x="30" y="341" fill="#1E293B" font-size="10.5" font-weight="600">Host Spotlight: Morning Health &amp; Wellness Live</text>
+        <rect x="360" y="329" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="343" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="342" fill="#0F172A" font-size="11" font-weight="700">7.2K Orders</text>
+      
+        <rect x="20" y="365" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="385" fill="#1E293B" font-size="10.5" font-weight="600">Affiliate Testimonial: 30-Day Skincare Routine</text>
+        <rect x="360" y="373" width="50" height="20" rx="3" fill="#FFEDD5"/>
+        <text x="385" y="387" fill="#C2410C" font-size="9.5" font-weight="700" text-anchor="middle">VIDEO</text>
+        <text x="440" y="386" fill="#0F172A" font-size="11" font-weight="700">6.9K Orders</text>
+      
+        <rect x="20" y="409" width="532" height="38" fill="#F8FAFC"/>
+        <text x="30" y="429" fill="#1E293B" font-size="10.5" font-weight="600">Flash Sale: Buy 1 Get 1 Shower Gel Refill</text>
+        <rect x="360" y="417" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="431" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="430" fill="#0F172A" font-size="11" font-weight="700">6.7K Orders</text>
+      
+        <rect x="20" y="453" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="473" fill="#1E293B" font-size="10.5" font-weight="600">Creator Clip: Travel Size Daily Essentials Pack</text>
+        <rect x="360" y="461" width="50" height="20" rx="3" fill="#FFEDD5"/>
+        <text x="385" y="475" fill="#C2410C" font-size="9.5" font-weight="700" text-anchor="middle">VIDEO</text>
+        <text x="440" y="474" fill="#0F172A" font-size="11" font-weight="700">6.4K Orders</text>
+      
+        <rect x="20" y="497" width="532" height="38" fill="#F8FAFC"/>
+        <text x="30" y="517" fill="#1E293B" font-size="10.5" font-weight="600">Evening Prime Broadcast: Payday Midnight Rush</text>
+        <rect x="360" y="505" width="50" height="20" rx="3" fill="#DBEAFE"/>
+        <text x="385" y="519" fill="#1D4ED8" font-size="9.5" font-weight="700" text-anchor="middle">LIVE</text>
+        <text x="440" y="518" fill="#0F172A" font-size="11" font-weight="700">5.8K Orders</text>
+      
+        <rect x="20" y="541" width="532" height="38" fill="#FFFFFF"/>
+        <text x="30" y="561" fill="#1E293B" font-size="10.5" font-weight="600">Affiliate Clip: Top 3 Budget Fragrance Finds</text>
+        <rect x="360" y="549" width="50" height="20" rx="3" fill="#FFEDD5"/>
+        <text x="385" y="563" fill="#C2410C" font-size="9.5" font-weight="700" text-anchor="middle">VIDEO</text>
+        <text x="440" y="562" fill="#0F172A" font-size="11" font-weight="700">5.2K Orders</text>
+      
+  </g>
+</svg>

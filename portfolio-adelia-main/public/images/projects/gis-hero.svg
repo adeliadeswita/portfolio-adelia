@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gisbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6F8F6"/>
+      <stop offset="100%" stop-color="#E3EAE4"/>
+    </linearGradient>
+    <filter id="gshadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#343630" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#gisbg)" rx="20"/>
+
+  <g transform="translate(60, 40)">
+    <rect width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="36" y="36" font-family="'Poppins', sans-serif" font-size="15" font-weight="700" fill="#343630">Geospatial Customer Intelligence — PostGIS &amp; H3 Spatial Catchment Mart</text>
+    <rect x="910" y="16" width="130" height="28" rx="8" fill="#DCE5DD"/>
+    <text x="925" y="34" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">● 85K GEOCODES</text>
+  </g>
+
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="24" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">GEOCODING SUCCESS</text>
+    <text x="24" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">94.2%</text>
+    <text x="24" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">Fuzzy string normalized</text>
+
+    <rect x="276" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="300" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">HIGH-DENSITY CLUSTERS</text>
+    <text x="300" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">7 Hotspots</text>
+    <text x="300" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">Whitespace expansion target</text>
+
+    <rect x="552" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="576" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">SPATIAL QUERY SPEED</text>
+    <text x="576" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">&lt; 180 ms</text>
+    <text x="576" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">PostGIS GiST Indexed</text>
+
+    <rect x="828" y="0" width="252" height="110" rx="14" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="852" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">CANNIBALIZATION RISK</text>
+    <text x="852" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">24.6% Deflected</text>
+    <text x="852" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#6366F1">Prevented redundant site</text>
+  </g>
+
+  <!-- Big Map Graphic -->
+  <g transform="translate(60, 270)">
+    <rect width="680" height="370" rx="16" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">Metropolitan Spatial Grid &amp; Isochrone Radii</text>
+    
+    <!-- Stylized Map Grids / Isochrone polygons -->
+    <g transform="translate(60, 80)">
+      <!-- Base terrain contours -->
+      <path d="M40,180 C120,100 240,110 320,70 C400,30 480,90 540,150 C580,210 520,260 400,250 C260,240 100,270 40,180 Z" fill="#F4F8F5" stroke="#DCE5DD" stroke-width="2"/>
+      
+      <!-- 15-min Isochrone (Outer buffer) -->
+      <polygon points="180,80 340,50 460,110 440,220 280,240 160,180" fill="#E8E5F0" fill-opacity="0.4" stroke="#C4B5FD" stroke-width="2" stroke-dasharray="4"/>
+      
+      <!-- 10-min Isochrone (Middle) -->
+      <polygon points="220,100 320,80 400,120 380,200 280,210 200,160" fill="#DCE5DD" fill-opacity="0.6" stroke="#A8C4B0" stroke-width="2"/>
+
+      <!-- 5-min Isochrone (Core) -->
+      <polygon points="260,120 310,110 350,130 340,180 290,180 250,150" fill="#343630" fill-opacity="0.15" stroke="#343630" stroke-width="2"/>
+
+      <!-- Flagship Branch Node -->
+      <circle cx="300" cy="145" r="9" fill="#343630"/>
+      <circle cx="300" cy="145" r="4" fill="#FFFFFF"/>
+      <text x="315" y="150" font-family="sans-serif" font-size="11" font-weight="700" fill="#343630">Flagship #01</text>
+
+      <!-- Competitor Nodes -->
+      <circle cx="170" cy="110" r="6" fill="#EF4444"/>
+      <circle cx="430" cy="180" r="6" fill="#EF4444"/>
+
+      <!-- Customer Dots -->
+      <circle cx="210" cy="140" r="3" fill="#10B981"/>
+      <circle cx="240" cy="160" r="3" fill="#10B981"/>
+      <circle cx="270" cy="130" r="3" fill="#10B981"/>
+      <circle cx="290" cy="120" r="3" fill="#10B981"/>
+      <circle cx="330" cy="160" r="3" fill="#10B981"/>
+      <circle cx="350" cy="140" r="3" fill="#10B981"/>
+      <circle cx="380" cy="150" r="3" fill="#10B981"/>
+      <circle cx="280" cy="170" r="3" fill="#10B981"/>
+
+      <!-- High Density Whitespace Cluster (Target) -->
+      <circle cx="470" cy="80" r="45" fill="#10B981" fill-opacity="0.18" stroke="#10B981" stroke-width="2" stroke-dasharray="3"/>
+      <text x="470" y="85" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#047857">Hotspot #02</text>
+    </g>
+  </g>
+
+  <!-- Side Panel -->
+  <g transform="translate(770, 270)">
+    <rect width="370" height="370" rx="16" fill="#FFFFFF" filter="url(#gshadow)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">Catchment Distribution</text>
+
+    <g transform="translate(32, 80)">
+      <text x="0" y="20" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">0 — 5 Min Drive Core</text>
+      <text x="240" y="20" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">26.4%</text>
+      <rect x="0" y="30" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="30" width="79" height="8" rx="4" fill="#343630"/>
+    </g>
+
+    <g transform="translate(32, 140)">
+      <text x="0" y="20" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">5 — 10 Min Primary Radius</text>
+      <text x="240" y="20" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">41.8%</text>
+      <rect x="0" y="30" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="30" width="125" height="8" rx="4" fill="#A8C4B0"/>
+    </g>
+
+    <g transform="translate(32, 200)">
+      <text x="0" y="20" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">10 — 15 Min Secondary</text>
+      <text x="240" y="20" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">31.8%</text>
+      <rect x="0" y="30" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="30" width="95" height="8" rx="4" fill="#DCE5DD"/>
+    </g>
+
+    <g transform="translate(32, 270)">
+      <rect width="306" height="70" rx="10" fill="#F8F7F4"/>
+      <text x="16" y="28" font-family="sans-serif" font-size="12" font-weight="700" fill="#343630">Recommended Expansion:</text>
+      <text x="16" y="48" font-family="sans-serif" font-size="12" fill="#77766F">Focus on Corridor Bojongsoang-Cimahi</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <rect width="1000" height="600" fill="#F8F7F4" rx="16"/>
+  <rect x="40" y="40" width="920" height="520" rx="12" fill="#FFFFFF" stroke="#EAE8E2" stroke-width="2"/>
+  <text x="70" y="80" font-family="sans-serif" font-size="18" font-weight="700" fill="#343630">Retail Catchment Isochrones &amp; Cannibalization Analysis</text>
+  
+  <g transform="translate(100, 130)">
+    <!-- Store A Buffer -->
+    <ellipse cx="280" cy="180" rx="180" ry="140" fill="#A8C4B0" fill-opacity="0.35" stroke="#10B981" stroke-width="2"/>
+    <circle cx="280" cy="180" r="10" fill="#343630"/>
+    <text x="280" y="150" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">Store #04 (Existing Flagship)</text>
+
+    <!-- Store B (Proposed - Cannibalization Overlap) -->
+    <ellipse cx="440" cy="180" rx="170" ry="130" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="2" stroke-dasharray="4"/>
+    <circle cx="440" cy="180" r="10" fill="#EF4444"/>
+    <text x="450" y="150" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#EF4444">Proposed Site C (Rejected)</text>
+
+    <!-- Overlap Marker -->
+    <rect x="310" y="170" width="100" height="30" rx="6" fill="#FFFFFF" stroke="#EF4444"/>
+    <text x="360" y="190" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="700" fill="#EF4444">44% Overlap</text>
+
+    <!-- Stat Callout -->
+    <g transform="translate(560, 260)">
+      <rect width="250" height="80" rx="8" fill="#F8F7F4" stroke="#DCE5DD"/>
+      <text x="16" y="30" font-family="sans-serif" font-size="12" font-weight="700" fill="#343630">Key Decision:</text>
+      <text x="16" y="52" font-family="sans-serif" font-size="12" fill="#77766F">Site C eliminated to preserve</text>
+      <text x="16" y="70" font-family="sans-serif" font-size="12" fill="#77766F">IDR 1.2B capital expenditure.</text>
+    </g>
+  </g>
+</svg>

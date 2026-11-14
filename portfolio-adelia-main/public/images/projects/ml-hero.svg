@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mlbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F6"/>
+      <stop offset="100%" stop-color="#EEE8E0"/>
+    </linearGradient>
+    <filter id="mlshad" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#343630" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#mlbg)" rx="20"/>
+
+  <g transform="translate(60, 40)">
+    <rect width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="36" y="36" font-family="'Poppins', sans-serif" font-size="15" font-weight="700" fill="#343630">Credit Risk Predictive Classification — LightGBM &amp; SHAP Underwriting Suite</text>
+    <rect x="910" y="16" width="130" height="28" rx="8" fill="#E8E5F0"/>
+    <text x="925" y="34" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">● 115K RECORDS</text>
+  </g>
+
+  <g transform="translate(60, 130)">
+    <rect x="0" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="24" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">LIGHTGBM ROC-AUC</text>
+    <text x="24" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">0.852</text>
+    <text x="24" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">+0.07 over Logistic baseline</text>
+
+    <rect x="276" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="300" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">DEFAULT RECALL RATE</text>
+    <text x="300" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">78.4%</text>
+    <text x="300" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">Top risk band captured</text>
+
+    <rect x="552" y="0" width="250" height="110" rx="14" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="576" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">PR-AUC SCORE</text>
+    <text x="576" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">0.641</text>
+    <text x="576" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">Imbalanced target calibrated</text>
+
+    <rect x="828" y="0" width="252" height="110" rx="14" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="852" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">ESTIMATED NPL SAVING</text>
+    <text x="852" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">18.3%</text>
+    <text x="852" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#6366F1">Cost matrix cutoff tuned</text>
+  </g>
+
+  <!-- Big ROC curve and confusion matrix -->
+  <g transform="translate(60, 270)">
+    <rect width="680" height="370" rx="16" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">Model ROC-AUC Benchmark: LightGBM vs Baselines</text>
+
+    <line x1="60" y1="300" x2="620" y2="300" stroke="#EAE8E2" stroke-width="2"/>
+    <line x1="60" y1="300" x2="60" y2="80" stroke="#EAE8E2" stroke-width="2"/>
+    <line x1="60" y1="300" x2="620" y2="80" stroke="#EAE8E2" stroke-dasharray="4"/>
+
+    <!-- LightGBM Curve -->
+    <path d="M60,300 Q120,95 620,80" fill="none" stroke="#343630" stroke-width="3.5"/>
+    <!-- Random Forest -->
+    <path d="M60,300 Q180,120 620,80" fill="none" stroke="#A8C4B0" stroke-width="2.5"/>
+    <!-- Logistic Regression -->
+    <path d="M60,300 Q240,150 620,80" fill="none" stroke="#E8A782" stroke-width="2.5"/>
+
+    <text x="400" y="110" font-family="sans-serif" font-size="12" font-weight="700" fill="#343630">● LightGBM (AUC = 0.852)</text>
+    <text x="400" y="135" font-family="sans-serif" font-size="12" font-weight="700" fill="#77766F">● Random Forest (AUC = 0.829)</text>
+    <text x="400" y="160" font-family="sans-serif" font-size="12" font-weight="700" fill="#C86A3E">● Logistic Reg (AUC = 0.781)</text>
+
+    <text x="60" y="324" font-family="sans-serif" font-size="11" fill="#77766F">0.0 (FPR)</text>
+    <text x="320" y="324" font-family="sans-serif" font-size="11" fill="#77766F">0.5</text>
+    <text x="600" y="324" font-family="sans-serif" font-size="11" fill="#77766F">1.0</text>
+  </g>
+
+  <!-- Side Panel: SHAP Feature Importance -->
+  <g transform="translate(770, 270)">
+    <rect width="370" height="370" rx="16" fill="#FFFFFF" filter="url(#mlshad)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">SHAP Feature Importance</text>
+
+    <g transform="translate(32, 80)">
+      <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">Revolving Line Utilization</text>
+      <rect x="0" y="28" width="280" height="10" rx="5" fill="#343630"/>
+    </g>
+
+    <g transform="translate(32, 135)">
+      <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">Inquiries Last 6 Months</text>
+      <rect x="0" y="28" width="220" height="10" rx="5" fill="#A8C4B0"/>
+    </g>
+
+    <g transform="translate(32, 190)">
+      <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">Debt Burden to Income</text>
+      <rect x="0" y="28" width="180" height="10" rx="5" fill="#DCE5DD"/>
+    </g>
+
+    <g transform="translate(32, 245)">
+      <text x="0" y="18" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">Historical Delinquency Flag</text>
+      <rect x="0" y="28" width="140" height="10" rx="5" fill="#E8E5F0"/>
+    </g>
+  </g>
+</svg>

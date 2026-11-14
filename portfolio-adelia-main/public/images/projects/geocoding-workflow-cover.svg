@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="100%" height="100%" style="background:#F8FAFC; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="map-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#111E38"/>
+    </linearGradient>
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="emerald-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <filter id="card-shadow" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Top Dark Header Console Bar -->
+  <rect x="0" y="0" width="1200" height="68" fill="url(#bg-grad)"/>
+  <g transform="translate(28, 18)">
+    <rect x="0" y="0" width="32" height="32" rx="8" fill="#2563EB"/>
+    <!-- Compass / Pin icon -->
+    <path d="M16 6 L20 16 L16 14 L12 16 Z" fill="#FFFFFF"/>
+    <circle cx="16" cy="16" r="3" fill="#38BDF8"/>
+    <path d="M16 26 L12 16 L16 18 L20 16 Z" fill="#93C5FD"/>
+    <text x="44" y="21" fill="#FFFFFF" font-size="16" font-weight="800" letter-spacing="0.5">GEOSPATIAL ETL</text>
+    <text x="210" y="21" fill="#475569" font-size="14">|</text>
+    <text x="226" y="21" fill="#E2E8F0" font-size="13.5" font-weight="600">Customer Address Geocoding &amp; Spatial Boundary Pipeline</text>
+  </g>
+
+  <!-- Top Right Badges -->
+  <g transform="translate(730, 18)">
+    <rect x="0" y="0" width="140" height="32" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <circle cx="14" cy="16" r="4" fill="#10B981"/>
+    <text x="26" y="20" fill="#E2E8F0" font-size="11" font-weight="700">2,000,000+ ROWS</text>
+
+    <rect x="150" y="0" width="150" height="32" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="225" y="20" fill="#38BDF8" font-size="11" font-weight="700" text-anchor="middle">ArcGIS + GEOPY ETL</text>
+
+    <rect x="310" y="0" width="130" height="32" rx="16" fill="#065F46" stroke="#10B981" stroke-width="1"/>
+    <text x="375" y="20" fill="#A7F3D0" font-size="10.5" font-weight="800" text-anchor="middle">&#10003; PIP VALIDATED</text>
+  </g>
+
+  <!-- 4 Executive KPI Metric Cards -->
+  <g transform="translate(28, 90)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="270" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+    <rect x="0" y="0" width="4" height="84" rx="2" fill="#2563EB"/>
+    <text x="20" y="24" fill="#64748B" font-size="10.5" font-weight="700" letter-spacing="0.5">TOTAL CUSTOMER RECORDS</text>
+    <text x="20" y="54" fill="#0F172A" font-size="22" font-weight="900">2,000,000+</text>
+    <text x="20" y="72" fill="#10B981" font-size="11" font-weight="600">&#9650; Normalized &amp; Geocoded</text>
+
+    <!-- KPI 2 -->
+    <rect x="290" y="0" width="270" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+    <rect x="290" y="0" width="4" height="84" rx="2" fill="#10B981"/>
+    <text x="310" y="24" fill="#64748B" font-size="10.5" font-weight="700" letter-spacing="0.5">PROCESSING TIME REDUCTION</text>
+    <text x="310" y="54" fill="#0F172A" font-size="22" font-weight="900">~40% Faster</text>
+    <text x="310" y="72" fill="#10B981" font-size="11" font-weight="600">&#9650; Automated Chunk Batching</text>
+
+    <!-- KPI 3 -->
+    <rect x="580" y="0" width="270" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+    <rect x="580" y="0" width="4" height="84" rx="2" fill="#0284C7"/>
+    <text x="600" y="24" fill="#64748B" font-size="10.5" font-weight="700" letter-spacing="0.5">GEOCODING SUCCESS RATE</text>
+    <text x="600" y="54" fill="#0F172A" font-size="22" font-weight="900">99.2% Validated</text>
+    <text x="600" y="72" fill="#0284C7" font-size="11" font-weight="600">Dual Engine API Fallback</text>
+
+    <!-- KPI 4 -->
+    <rect x="870" y="0" width="274" height="84" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+    <rect x="870" y="0" width="4" height="84" rx="2" fill="#8B5CF6"/>
+    <text x="890" y="24" fill="#64748B" font-size="10.5" font-weight="700" letter-spacing="0.5">SPATIAL INTEGRITY CHECK</text>
+    <text x="890" y="54" fill="#0F172A" font-size="22" font-weight="900">Point-in-Polygon</text>
+    <text x="890" y="72" fill="#8B5CF6" font-size="11" font-weight="600">BPS Boundary GeoPandas</text>
+  </g>
+
+  <!-- Left Main Panel: End-to-End ETL Pipeline Flow -->
+  <g transform="translate(28, 195)">
+    <rect x="0" y="0" width="530" height="500" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+    
+    <!-- Panel Header -->
+    <rect x="0" y="0" width="530" height="48" rx="12" fill="#0F172A"/>
+    <text x="20" y="29" fill="#FFFFFF" font-size="13" font-weight="800" letter-spacing="0.3">AUTOMATED GEOCODING ETL WORKFLOW</text>
+    <text x="400" y="29" fill="#38BDF8" font-size="11" font-weight="700">Python + ArcGIS</text>
+
+    <!-- Step 1: Raw Ingestion -->
+    <g transform="translate(20, 68)">
+      <rect x="0" y="0" width="490" height="86" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="0" y="0" width="36" height="86" rx="8" fill="#2563EB"/>
+      <text x="18" y="48" fill="#FFFFFF" font-size="13" font-weight="800" text-anchor="middle">01</text>
+      <text x="48" y="26" fill="#0F172A" font-size="13" font-weight="800">Address Parsing &amp; Regex Normalization</text>
+      <text x="48" y="44" fill="#64748B" font-size="11">Extracts clean street tokens, RT/RW, subdistricts, postal codes</text>
+      <rect x="48" y="55" width="130" height="20" rx="4" fill="#EFF6FF"/>
+      <text x="113" y="69" fill="#2563EB" font-size="9.5" font-weight="700" text-anchor="middle">Regex Sanitization</text>
+      <rect x="186" y="55" width="115" height="20" rx="4" fill="#EFF6FF"/>
+      <text x="243" y="69" fill="#2563EB" font-size="9.5" font-weight="700" text-anchor="middle">BPS Code Lookup</text>
+    </g>
+
+    <!-- Down Arrow 1 -->
+    <path d="M265 158 L265 174" stroke="#2563EB" stroke-width="2" stroke-dasharray="3,2"/>
+    <polygon points="261,172 265,178 269,172" fill="#2563EB"/>
+
+    <!-- Step 2: Multi-API Fallback Engine -->
+    <g transform="translate(20, 180)">
+      <rect x="0" y="0" width="490" height="86" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="0" y="0" width="36" height="86" rx="8" fill="#0284C7"/>
+      <text x="18" y="48" fill="#FFFFFF" font-size="13" font-weight="800" text-anchor="middle">02</text>
+      <text x="48" y="26" fill="#0F172A" font-size="13" font-weight="800">Dual Geocoding Engine with Rate Limiting</text>
+      <text x="48" y="44" fill="#64748B" font-size="11">Primary ArcGIS API &#8594; Automatic Fallback to Geopy Nominatim</text>
+      <rect x="48" y="55" width="110" height="20" rx="4" fill="#E0F2FE"/>
+      <text x="103" y="69" fill="#0284C7" font-size="9.5" font-weight="700" text-anchor="middle">ArcGIS REST API</text>
+      <rect x="166" y="55" width="115" height="20" rx="4" fill="#E0F2FE"/>
+      <text x="223" y="69" fill="#0284C7" font-size="9.5" font-weight="700" text-anchor="middle">Geopy RateLimiter</text>
+      <rect x="289" y="55" width="90" height="20" rx="4" fill="#DCFCE7"/>
+      <text x="334" y="69" fill="#166534" font-size="9.5" font-weight="700" text-anchor="middle">Auto-Fallback</text>
+    </g>
+
+    <!-- Down Arrow 2 -->
+    <path d="M265 270 L265 286" stroke="#0284C7" stroke-width="2" stroke-dasharray="3,2"/>
+    <polygon points="261,284 265,290 269,284" fill="#0284C7"/>
+
+    <!-- Step 3: Spatial Point-in-Polygon Validation -->
+    <g transform="translate(20, 292)">
+      <rect x="0" y="0" width="490" height="86" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <rect x="0" y="0" width="36" height="86" rx="8" fill="#8B5CF6"/>
+      <text x="18" y="48" fill="#FFFFFF" font-size="13" font-weight="800" text-anchor="middle">03</text>
+      <text x="48" y="26" fill="#0F172A" font-size="13" font-weight="800">Point-in-Polygon Administrative Boundary Verification</text>
+      <text x="48" y="44" fill="#64748B" font-size="11">GeoPandas &amp; Shapely checks point coordinates inside official polygon</text>
+      <rect x="48" y="55" width="135" height="20" rx="4" fill="#F3E8FF"/>
+      <text x="115" y="69" fill="#7C3AED" font-size="9.5" font-weight="700" text-anchor="middle">Shapely Geometry</text>
+      <rect x="191" y="55" width="145" height="20" rx="4" fill="#F3E8FF"/>
+      <text x="263" y="69" fill="#7C3AED" font-size="9.5" font-weight="700" text-anchor="middle">Polygon Intersection</text>
+    </g>
+
+    <!-- Down Arrow 3 -->
+    <path d="M265 382 L265 398" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="3,2"/>
+    <polygon points="261,396 265,402 269,396" fill="#8B5CF6"/>
+
+    <!-- Step 4: Final Enriched Mart Output -->
+    <g transform="translate(20, 404)">
+      <rect x="0" y="0" width="490" height="80" rx="8" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1"/>
+      <rect x="0" y="0" width="36" height="80" rx="8" fill="#10B981"/>
+      <text x="18" y="45" fill="#FFFFFF" font-size="13" font-weight="800" text-anchor="middle">04</text>
+      <text x="48" y="25" fill="#14532D" font-size="13" font-weight="800">Spatially Validated Coordinate Database Output</text>
+      <text x="48" y="42" fill="#166534" font-size="11">Enriched with latitude, longitude, boundary match flag &amp; audit status</text>
+      <rect x="48" y="52" width="130" height="18" rx="4" fill="#DCFCE7"/>
+      <text x="113" y="65" fill="#15803D" font-size="9" font-weight="700" text-anchor="middle">2,000,000+ Validated</text>
+      <rect x="186" y="52" width="115" height="18" rx="4" fill="#DCFCE7"/>
+      <text x="243" y="65" fill="#15803D" font-size="9" font-weight="700" text-anchor="middle">Audit Logs Stored</text>
+    </g>
+  </g>
+
+  <!-- Right Main Panel: Spatial Map & Live Pipeline Telemetry -->
+  <g transform="translate(580, 195)">
+    <rect x="0" y="0" width="592" height="500" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#card-shadow)"/>
+
+    <!-- Map Container -->
+    <rect x="18" y="18" width="556" height="260" rx="10" fill="url(#map-grad)" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Map Header -->
+    <text x="36" y="44" fill="#FFFFFF" font-size="13" font-weight="800" letter-spacing="0.3">GEOGRAPHIC COORDINATE MAPPING</text>
+    <text x="36" y="60" fill="#94A3B8" font-size="10.5">Nationwide customer distribution plotted across 34 Indonesian provinces</text>
+
+    <!-- Stylized Indonesia Archipelago Landmass Shapes (Abstract Vector) -->
+    <g fill="#1E3A8A" opacity="0.6">
+      <!-- Sumatra -->
+      <path d="M 60 110 L 110 160 L 160 210 L 140 225 L 90 170 L 50 120 Z"/>
+      <!-- Java -->
+      <path d="M 130 220 L 250 225 L 300 230 L 290 240 L 130 235 Z"/>
+      <!-- Kalimantan -->
+      <path d="M 210 110 L 290 100 L 320 160 L 270 190 L 200 160 Z"/>
+      <!-- Sulawesi -->
+      <path d="M 330 115 L 360 110 L 360 145 L 380 160 L 350 180 L 340 140 Z"/>
+      <!-- Papua -->
+      <path d="M 430 140 L 520 145 L 530 190 L 460 200 L 430 160 Z"/>
+    </g>
+
+    <!-- Administrative Boundaries / Polygons in Glowing Cyan -->
+    <polygon points="140,218 200,220 205,236 138,234" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.8"/>
+    <polygon points="210,120 280,110 300,150 240,175" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.8"/>
+    <polygon points="70,125 120,165 145,210 110,215" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="3,2" opacity="0.8"/>
+
+    <!-- Glowing Spatial Verified Points / Pins -->
+    <!-- Jakarta / West Java Density Cluster -->
+    <circle cx="160" cy="226" r="14" fill="#38BDF8" opacity="0.25"/>
+    <circle cx="160" cy="226" r="6" fill="#38BDF8"/>
+    <circle cx="160" cy="226" r="2.5" fill="#FFFFFF"/>
+
+    <!-- Surabaya / East Java -->
+    <circle cx="260" cy="228" r="10" fill="#38BDF8" opacity="0.25"/>
+    <circle cx="260" cy="228" r="5" fill="#38BDF8"/>
+    <circle cx="260" cy="228" r="2" fill="#FFFFFF"/>
+
+    <!-- Medan / North Sumatra -->
+    <circle cx="85" cy="135" r="9" fill="#38BDF8" opacity="0.25"/>
+    <circle cx="85" cy="135" r="4.5" fill="#38BDF8"/>
+    <circle cx="85" cy="135" r="2" fill="#FFFFFF"/>
+
+    <!-- Balikpapan / East Kalimantan -->
+    <circle cx="280" cy="155" r="8" fill="#38BDF8" opacity="0.25"/>
+    <circle cx="280" cy="155" r="4" fill="#38BDF8"/>
+    <circle cx="280" cy="155" r="1.5" fill="#FFFFFF"/>
+
+    <!-- Makassar / South Sulawesi -->
+    <circle cx="345" cy="170" r="8" fill="#38BDF8" opacity="0.25"/>
+    <circle cx="345" cy="170" r="4" fill="#38BDF8"/>
+    <circle cx="345" cy="170" r="1.5" fill="#FFFFFF"/>
+
+    <!-- Map Legend Card -->
+    <rect x="360" y="210" width="200" height="56" rx="6" fill="#0B1329" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="375" cy="228" r="4" fill="#10B981"/>
+    <text x="388" y="232" fill="#E2E8F0" font-size="10" font-weight="600">Spatial Verified (99.2%)</text>
+    <circle cx="375" cy="248" r="4" fill="#EF4444"/>
+    <text x="388" y="252" fill="#E2E8F0" font-size="10" font-weight="600">Flagged for Audit (0.8%)</text>
+
+    <!-- Bottom Execution Console & Live Terminal -->
+    <rect x="18" y="294" width="556" height="188" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    
+    <!-- Terminal Header -->
+    <rect x="18" y="294" width="556" height="30" rx="10" fill="#1E293B"/>
+    <circle cx="35" cy="309" r="4" fill="#EF4444"/>
+    <circle cx="48" cy="309" r="4" fill="#F59E0B"/>
+    <circle cx="61" cy="309" r="4" fill="#10B981"/>
+    <text x="80" y="313" fill="#94A3B8" font-size="10" font-family="monospace" font-weight="700">batch_geocoding_execution.log â€” Active Pipeline</text>
+
+    <!-- Terminal Code / Log Lines -->
+    <g transform="translate(35, 342)" font-family="monospace" font-size="10.5">
+      <text y="0" fill="#38BDF8">[INFO]</text>
+      <text x="55" y="0" fill="#E2E8F0">Loading customer address batch chunk: 50,000 records</text>
+      
+      <text y="22" fill="#38BDF8">[GEO]</text>
+      <text x="55" y="22" fill="#E2E8F0">ArcGIS API batch geocoded: 48,920 matched (97.8%)</text>
+
+      <text y="44" fill="#FBBF24">[FALLBACK]</text>
+      <text x="90" y="44" fill="#E2E8F0">Geopy Nominatim recovered 1,042 records with backoff</text>
+
+      <text y="66" fill="#A855F7">[SPATIAL]</text>
+      <text x="75" y="66" fill="#E2E8F0">GeoPandas PIP: 49,962 coordinates inside BPS boundary</text>
+
+      <text y="88" fill="#10B981">[SUCCESS]</text>
+      <text x="75" y="88" fill="#34D399" font-weight="700">Batch validated: 99.92% accuracy &#10003; Written to PostgreSQL</text>
+
+      <text y="110" fill="#64748B">[STATUS]</text>
+      <text x="75" y="110" fill="#94A3B8">Elapsed: 12.4s | Memory: 312MB | Active Engine: ArcGIS REST</text>
+    </g>
+  </g>
+</svg>

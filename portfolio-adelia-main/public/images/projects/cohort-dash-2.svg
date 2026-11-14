@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <rect width="1000" height="600" fill="#F8F7F4" rx="16"/>
+  <rect x="40" y="40" width="920" height="520" rx="12" fill="#FFFFFF" stroke="#EAE8E2" stroke-width="2"/>
+  <text x="70" y="80" font-family="sans-serif" font-size="18" font-weight="700" fill="#343630">Cumulative LTV Trajectory by Marketing Channel</text>
+  
+  <g transform="translate(100, 130)">
+    <line x1="50" y1="340" x2="750" y2="340" stroke="#343630" stroke-width="2"/>
+    <line x1="50" y1="340" x2="50" y2="50" stroke="#343630" stroke-width="2"/>
+
+    <!-- Channel 1: SEO -->
+    <path d="M50,330 C200,280 400,160 720,80" fill="none" stroke="#10B981" stroke-width="4"/>
+    <text x="730" y="85" font-family="sans-serif" font-size="13" font-weight="700" fill="#10B981">SEO / Organic (IDR 840K LTV)</text>
+
+    <!-- Channel 2: Direct / Referral -->
+    <path d="M50,330 C200,300 400,220 720,160" fill="none" stroke="#343630" stroke-width="3"/>
+    <text x="730" y="165" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Referral (IDR 580K LTV)</text>
+
+    <!-- Channel 3: Paid Flash Promotion -->
+    <path d="M50,330 C200,310 400,290 720,270" fill="none" stroke="#EF4444" stroke-width="3" stroke-dasharray="4"/>
+    <text x="730" y="275" font-family="sans-serif" font-size="13" font-weight="600" fill="#EF4444">Paid Flash Promo (IDR 270K LTV)</text>
+
+    <!-- X labels -->
+    <text x="50" y="365" font-family="sans-serif" font-size="12" fill="#77766F">M0</text>
+    <text x="210" y="365" font-family="sans-serif" font-size="12" fill="#77766F">M3</text>
+    <text x="380" y="365" font-family="sans-serif" font-size="12" fill="#77766F">M6</text>
+    <text x="550" y="365" font-family="sans-serif" font-size="12" fill="#77766F">M9</text>
+    <text x="720" y="365" font-family="sans-serif" font-size="12" fill="#77766F">M12</text>
+  </g>
+</svg>

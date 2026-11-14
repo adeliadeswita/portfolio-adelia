@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8F7F4"/>
+      <stop offset="100%" stop-color="#EFECE6"/>
+    </linearGradient>
+    <linearGradient id="cardG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FCFCFA"/>
+    </linearGradient>
+    <filter id="fShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#343630" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#bgG)" rx="20"/>
+
+  <!-- Top UI Bar -->
+  <g transform="translate(60, 40)">
+    <rect width="1080" height="60" rx="14" fill="#FFFFFF" filter="url(#fShadow)"/>
+    <circle cx="36" cy="30" r="8" fill="#DCE5DD"/>
+    <circle cx="60" cy="30" r="8" fill="#EAE8E2"/>
+    <circle cx="84" cy="30" r="8" fill="#E8E5F0"/>
+    <text x="120" y="36" font-family="'Poppins', sans-serif" font-size="15" font-weight="700" fill="#343630">Blibli Live Studio — Commercial Command Center</text>
+    <rect x="940" y="16" width="100" height="28" rx="8" fill="#DCE5DD"/>
+    <text x="965" y="34" font-family="sans-serif" font-size="12" font-weight="600" fill="#343630">● LIVE DATA</text>
+  </g>
+
+  <!-- KPI Cards -->
+  <g transform="translate(60, 130)">
+    <!-- KPI 1 -->
+    <rect x="0" y="0" width="250" height="110" rx="14" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="24" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">TOTAL STREAM GMV</text>
+    <text x="24" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">IDR 2.48B</text>
+    <text x="24" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">↑ +34.5% vs non-live</text>
+
+    <!-- KPI 2 -->
+    <rect x="276" y="0" width="250" height="110" rx="14" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="300" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">CONCURRENT PEAK</text>
+    <text x="300" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">42,850</text>
+    <text x="300" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">↑ Golden window min 24</text>
+
+    <!-- KPI 3 -->
+    <rect x="552" y="0" width="250" height="110" rx="14" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="576" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">VIEW-TO-CART CONV</text>
+    <text x="576" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">8.74%</text>
+    <text x="576" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#10B981">↑ +2.1% benchmark</text>
+
+    <!-- KPI 4 -->
+    <rect x="828" y="0" width="252" height="110" rx="14" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="852" y="36" font-family="sans-serif" font-size="13" font-weight="600" fill="#77766F">REPORTING LATENCY</text>
+    <text x="852" y="74" font-family="sans-serif" font-size="28" font-weight="800" fill="#343630">&lt; 2 Hours</text>
+    <text x="852" y="96" font-family="sans-serif" font-size="12" font-weight="600" fill="#6366F1">BigQuery pipeline automated</text>
+  </g>
+
+  <!-- Big Chart: Hourly GMV vs Viewers -->
+  <g transform="translate(60, 270)">
+    <rect width="680" height="370" rx="16" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">Hourly Stream GMV &amp; Viewer Density Dynamics</text>
+    <text x="32" y="68" font-family="sans-serif" font-size="13" fill="#77766F">Comparing interactive flash sessions vs standard merchant streams</text>
+
+    <!-- Axes -->
+    <line x1="50" y1="300" x2="630" y2="300" stroke="#EAE8E2" stroke-width="2"/>
+    <line x1="50" y1="230" x2="630" y2="230" stroke="#F4F2ED" stroke-dasharray="4"/>
+    <line x1="50" y1="160" x2="630" y2="160" stroke="#F4F2ED" stroke-dasharray="4"/>
+    <line x1="50" y1="90" x2="630" y2="90" stroke="#F4F2ED" stroke-dasharray="4"/>
+
+    <!-- Chart Bars -->
+    <rect x="70" y="210" width="34" height="90" rx="6" fill="#DCE5DD"/>
+    <rect x="120" y="180" width="34" height="120" rx="6" fill="#DCE5DD"/>
+    <rect x="170" y="140" width="34" height="160" rx="6" fill="#DCE5DD"/>
+    <rect x="220" y="110" width="34" height="190" rx="6" fill="#A8C4B0"/>
+    <rect x="270" y="80" width="34" height="220" rx="6" fill="#343630"/>
+    <rect x="320" y="95" width="34" height="205" rx="6" fill="#343630"/>
+    <rect x="370" y="130" width="34" height="170" rx="6" fill="#A8C4B0"/>
+    <rect x="420" y="170" width="34" height="130" rx="6" fill="#DCE5DD"/>
+    <rect x="470" y="200" width="34" height="100" rx="6" fill="#DCE5DD"/>
+    <rect x="520" y="220" width="34" height="80" rx="6" fill="#DCE5DD"/>
+    <rect x="570" y="240" width="34" height="60" rx="6" fill="#EAE8E2"/>
+
+    <!-- Trend line -->
+    <path d="M87,220 Q287,50 387,140 T587,250" fill="none" stroke="#E8A782" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="287" cy="80" r="5" fill="#E8A782"/>
+    <text x="300" y="75" font-family="sans-serif" font-size="11" font-weight="700" fill="#C86A3E">Golden Peak</text>
+
+    <!-- X labels -->
+    <text x="80" y="324" font-family="sans-serif" font-size="11" fill="#77766F">18:00</text>
+    <text x="180" y="324" font-family="sans-serif" font-size="11" fill="#77766F">19:00</text>
+    <text x="280" y="324" font-family="sans-serif" font-size="11" fill="#77766F">20:00</text>
+    <text x="380" y="324" font-family="sans-serif" font-size="11" fill="#77766F">21:00</text>
+    <text x="480" y="324" font-family="sans-serif" font-size="11" fill="#77766F">22:00</text>
+    <text x="580" y="324" font-family="sans-serif" font-size="11" fill="#77766F">23:00</text>
+  </g>
+
+  <!-- Side Panel: Category Share -->
+  <g transform="translate(770, 270)">
+    <rect width="370" height="370" rx="16" fill="url(#cardG)" filter="url(#fShadow)"/>
+    <text x="32" y="44" font-family="sans-serif" font-size="16" font-weight="700" fill="#343630">Category GMV Share</text>
+
+    <!-- Category rows -->
+    <g transform="translate(32, 80)">
+      <text x="0" y="16" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Electronics &amp; Gadgets</text>
+      <text x="240" y="16" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">41.2%</text>
+      <rect x="0" y="26" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="26" width="123" height="8" rx="4" fill="#343630"/>
+    </g>
+
+    <g transform="translate(32, 140)">
+      <text x="0" y="16" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Beauty &amp; Personal Care</text>
+      <text x="240" y="16" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">27.5%</text>
+      <rect x="0" y="26" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="26" width="82" height="8" rx="4" fill="#A8C4B0"/>
+    </g>
+
+    <g transform="translate(32, 200)">
+      <text x="0" y="16" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Mom &amp; Baby Essentials</text>
+      <text x="240" y="16" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">18.6%</text>
+      <rect x="0" y="26" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="26" width="56" height="8" rx="4" fill="#DCE5DD"/>
+    </g>
+
+    <g transform="translate(32, 260)">
+      <text x="0" y="16" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Fashion &amp; Lifestyle</text>
+      <text x="240" y="16" font-family="sans-serif" font-size="13" font-weight="700" fill="#343630">12.7%</text>
+      <rect x="0" y="26" width="300" height="8" rx="4" fill="#EAE8E2"/>
+      <rect x="0" y="26" width="38" height="8" rx="4" fill="#E8E5F0"/>
+    </g>
+  </g>
+</svg>

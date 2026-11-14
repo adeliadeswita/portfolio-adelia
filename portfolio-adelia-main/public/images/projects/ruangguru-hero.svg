@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rg-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBFBF9" />
+      <stop offset="100%" stop-color="#EBECE7" />
+    </linearGradient>
+    <linearGradient id="rg-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F7F8F5" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#rg-bg)" />
+
+  <!-- Main Window -->
+  <rect x="60" y="45" width="680" height="410" rx="20" fill="url(#rg-card)" stroke="#D8DFD7" stroke-width="2" />
+  
+  <!-- Window Header -->
+  <path d="M 60 65 Q 60 45 80 45 L 720 45 Q 740 45 740 65 L 740 95 L 60 95 Z" fill="#EAEFE9" />
+  <circle cx="90" cy="70" r="6" fill="#F87171" />
+  <circle cx="110" cy="70" r="6" fill="#FBBF24" />
+  <circle cx="130" cy="70" r="6" fill="#34D399" />
+  <text x="160" y="75" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#343630">Ruangguru Review Sentiment &amp; EDA Dashboard (4,000+ Reviews)</text>
+
+  <!-- Metric Badges -->
+  <rect x="90" y="115" width="180" height="75" rx="14" fill="#FFFFFF" stroke="#E2EBE4" stroke-width="1.5" />
+  <text x="105" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#77766F">TOTAL REVIEWS ANALYZED</text>
+  <text x="105" y="172" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#343630">4,128</text>
+
+  <rect x="290" y="115" width="180" height="75" rx="14" fill="#FFFFFF" stroke="#E2EBE4" stroke-width="1.5" />
+  <text x="305" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#77766F">POSITIVE SENTIMENT</text>
+  <text x="305" y="172" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#10B981">78.4%</text>
+
+  <rect x="490" y="115" width="220" height="75" rx="14" fill="#FFFFFF" stroke="#E2EBE4" stroke-width="1.5" />
+  <text x="505" y="140" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#77766F">DASHBOARD VISUALIZATIONS</text>
+  <text x="505" y="172" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#4A5B4C">15+ Visual Charts</text>
+
+  <!-- Visual Charts Mockup -->
+  <!-- Left Chart: Sentiment Bar Distribution -->
+  <rect x="90" y="210" width="300" height="215" rx="14" fill="#FFFFFF" stroke="#E2EBE4" stroke-width="1.5" />
+  <text x="110" y="235" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#343630">Sentiment Breakdown by Rating</text>
+  
+  <!-- Bar 5 Star -->
+  <text x="110" y="270" font-family="sans-serif" font-size="11" fill="#77766F">5 ★ (2,410)</text>
+  <rect x="190" y="258" width="170" height="16" rx="4" fill="#10B981" />
+
+  <!-- Bar 4 Star -->
+  <text x="110" y="305" font-family="sans-serif" font-size="11" fill="#77766F">4 ★ (824)</text>
+  <rect x="190" y="293" width="75" height="16" rx="4" fill="#34D399" />
+
+  <!-- Bar 3 Star -->
+  <text x="110" y="340" font-family="sans-serif" font-size="11" fill="#77766F">3 ★ (340)</text>
+  <rect x="190" y="328" width="35" height="16" rx="4" fill="#FBBF24" />
+
+  <!-- Bar 1-2 Star -->
+  <text x="110" y="375" font-family="sans-serif" font-size="11" fill="#77766F">1-2 ★ (554)</text>
+  <rect x="190" y="363" width="50" height="16" rx="4" fill="#F87171" />
+
+  <!-- Right Chart: Word Cloud & Topics -->
+  <rect x="410" y="210" width="300" height="215" rx="14" fill="#FFFFFF" stroke="#E2EBE4" stroke-width="1.5" />
+  <text x="430" y="235" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#343630">Top Keyword Clusters (NLP)</text>
+
+  <!-- Topic Badges -->
+  <rect x="430" y="260" width="110" height="28" rx="8" fill="#DCE5DD" />
+  <text x="442" y="278" font-family="sans-serif" font-size="11" font-weight="700" fill="#2F3E31">Materi Video</text>
+
+  <rect x="550" y="260" width="140" height="28" rx="8" fill="#EAE8E2" />
+  <text x="562" y="278" font-family="sans-serif" font-size="11" font-weight="700" fill="#343630">Penjelasan Guru</text>
+
+  <rect x="430" y="300" width="130" height="28" rx="8" fill="#E8E5F0" />
+  <text x="442" y="318" font-family="sans-serif" font-size="11" font-weight="700" fill="#343630">Latihan Soal</text>
+
+  <rect x="570" y="300" width="120" height="28" rx="8" fill="#DCE5DD" />
+  <text x="582" y="318" font-family="sans-serif" font-size="11" font-weight="700" fill="#2F3E31">Aplikasi Lancar</text>
+
+  <rect x="430" y="340" width="145" height="28" rx="8" fill="#F4F7F4" stroke="#E2EBE4" />
+  <text x="442" y="358" font-family="sans-serif" font-size="11" font-weight="700" fill="#4A5B4C">UI Ramah Anak</text>
+
+  <rect x="585" y="340" width="105" height="28" rx="8" fill="#EAE8E2" />
+  <text x="597" y="358" font-family="sans-serif" font-size="11" font-weight="700" fill="#343630">Paket Belajar</text>
+</svg>

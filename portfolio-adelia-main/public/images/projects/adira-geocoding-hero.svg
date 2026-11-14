@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="adira-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="adira-card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAFBFD" />
+    </linearGradient>
+    <linearGradient id="yellow-pill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" />
+      <stop offset="100%" stop-color="#FACC15" />
+    </linearGradient>
+    <filter id="adira-shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.06" />
+    </filter>
+    <marker id="adira-arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <polygon points="0 0.5, 5 3, 0 5.5" fill="#2E6FA0" />
+    </marker>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" fill="url(#adira-bg)" />
+
+  <!-- Subtle Blueprint Grid Lines -->
+  <g stroke="#CBD5E1" stroke-width="1" opacity="0.45">
+    <line x1="60" y1="50" x2="740" y2="50" />
+    <line x1="60" y1="110" x2="740" y2="110" />
+    <line x1="60" y1="170" x2="740" y2="170" />
+    <line x1="60" y1="230" x2="740" y2="230" />
+    <line x1="60" y1="290" x2="740" y2="290" />
+    <line x1="60" y1="350" x2="740" y2="350" />
+    <line x1="60" y1="410" x2="740" y2="410" />
+    <line x1="60" y1="470" x2="740" y2="470" />
+  </g>
+
+  <!-- Main Window Frame -->
+  <rect x="55" y="45" width="690" height="410" rx="18" fill="url(#adira-card)" stroke="#CBD5E1" stroke-width="1.8" filter="url(#adira-shadow)" />
+
+  <!-- Window Header Bar -->
+  <path d="M 55 63 Q 55 45 73 45 L 727 45 Q 745 45 745 63 L 745 92 L 55 92 Z" fill="#F1F5F9" />
+  <circle cx="80" cy="68" r="5" fill="#EF4444" />
+  <circle cx="96" cy="68" r="5" fill="#F59E0B" />
+  <circle cx="112" cy="68" r="5" fill="#10B981" />
+
+  <text x="135" y="73" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700" fill="#1E293B">
+    Customer Address Geocoding &amp; Spatial Pipeline · Adira Finance
+  </text>
+  <rect x="600" y="56" width="130" height="24" rx="6" fill="#E2E8F0" />
+  <text x="665" y="72" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#0F172A">
+    ● 2,000,000+ ROWS
+  </text>
+
+  <!-- Metric 1: Processed Records -->
+  <rect x="80" y="110" width="180" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4" />
+  <text x="96" y="133" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#64748B" letter-spacing="0.5">
+    TOTAL RECORDS
+  </text>
+  <text x="96" y="163" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#0F172A">
+    2,000,000+
+  </text>
+  <text x="96" y="180" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" fill="#2E6FA0">
+    TBL_CUSTOMER_TAGIH
+  </text>
+
+  <!-- Metric 2: Manual Time Reduction -->
+  <rect x="275" y="110" width="180" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4" />
+  <text x="291" y="133" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#64748B" letter-spacing="0.5">
+    PROCESSING TIME
+  </text>
+  <text x="291" y="163" font-family="system-ui, sans-serif" font-size="22" font-weight="900" fill="#10B981">
+    ~40% Faster
+  </text>
+  <text x="291" y="180" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" fill="#64748B">
+    Automated Batching ETL
+  </text>
+
+  <!-- Metric 3: Multi-API Fallback -->
+  <rect x="470" y="110" width="250" height="82" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.4" />
+  <text x="486" y="133" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#64748B" letter-spacing="0.5">
+    GEOCODING ENGINES
+  </text>
+  <text x="486" y="163" font-family="system-ui, sans-serif" font-size="19" font-weight="900" fill="#2E6FA0">
+    ArcGIS + Geopy
+  </text>
+  <text x="486" y="180" font-family="system-ui, sans-serif" font-size="9.5" font-weight="600" fill="#10B981">
+    ✓ Rate-Limited &amp; Auto-Fallback
+  </text>
+
+  <!-- Main Pipeline Execution & Spatial Console -->
+  <rect x="80" y="210" width="640" height="225" rx="14" fill="#0F172A" />
+
+  <!-- Console Header -->
+  <rect x="80" y="210" width="640" height="34" rx="14" fill="#1E293B" />
+  <text x="100" y="232" font-family="monospace" font-size="11" font-weight="700" fill="#94A3B8">
+    batch_geocoding_adira_pipeline.py — Active Geocoding Pipeline
+  </text>
+  <circle cx="685" cy="227" r="4" fill="#10B981" />
+  <text x="696" y="231" font-family="monospace" font-size="9.5" font-weight="600" fill="#10B981">
+    RUNNING
+  </text>
+
+  <!-- Left: 5 Pipeline Steps -->
+  <g transform="translate(100, 260)">
+    <!-- Stage 1 -->
+    <rect x="0" y="0" width="105" height="42" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="52.5" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">INPUT TABLE</text>
+    <text x="52.5" y="32" text-anchor="middle" font-family="monospace" font-size="8.5" font-weight="700" fill="#F8FAFC">Raw Addresses</text>
+
+    <!-- Arrow 1 -->
+    <line x1="107" y1="21" x2="120" y2="21" stroke="#2E6FA0" stroke-width="1.8" marker-end="url(#adira-arrow)" />
+
+    <!-- Stage 2 -->
+    <rect x="122" y="0" width="112" height="42" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="178" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">PREPROCESSING</text>
+    <text x="178" y="32" text-anchor="middle" font-family="monospace" font-size="8.5" font-weight="700" fill="#F8FAFC">Regex Cleaning</text>
+
+    <!-- Arrow 2 -->
+    <line x1="236" y1="21" x2="249" y2="21" stroke="#2E6FA0" stroke-width="1.8" marker-end="url(#adira-arrow)" />
+
+    <!-- Stage 3 -->
+    <rect x="251" y="0" width="108" height="42" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1" />
+    <text x="305" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#94A3B8">BATCH CHUNK</text>
+    <text x="305" y="32" text-anchor="middle" font-family="monospace" font-size="8.5" font-weight="700" fill="#F8FAFC">Provinsi Split</text>
+
+    <!-- Arrow 3 -->
+    <line x1="361" y1="21" x2="374" y2="21" stroke="#2E6FA0" stroke-width="1.8" marker-end="url(#adira-arrow)" />
+
+    <!-- Stage 4 -->
+    <rect x="376" y="0" width="112" height="42" rx="6" fill="#1E293B" stroke="#38BDF8" stroke-width="1.2" />
+    <text x="432" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#38BDF8">ARCGIS ENGINE</text>
+    <text x="432" y="32" text-anchor="middle" font-family="monospace" font-size="8.5" font-weight="700" fill="#F8FAFC">RateLimiter (1s)</text>
+
+    <!-- Arrow 4 -->
+    <line x1="490" y1="21" x2="503" y2="21" stroke="#2E6FA0" stroke-width="1.8" marker-end="url(#adira-arrow)" />
+
+    <!-- Stage 5 (Master Output in Yellow) -->
+    <rect x="505" y="0" width="95" height="42" rx="6" fill="url(#yellow-pill)" stroke="#EAB308" stroke-width="1.2" />
+    <text x="552.5" y="18" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8.5" font-weight="800" fill="#713F12">OUTPUT TABLE</text>
+    <text x="552.5" y="32" text-anchor="middle" font-family="monospace" font-size="8" font-weight="800" fill="#18181B">TBL_GEOCODING</text>
+  </g>
+
+  <!-- Live Record Stream Feed -->
+  <g transform="translate(100, 318)" font-family="monospace" font-size="10">
+    <rect x="0" y="0" width="600" height="100" rx="8" fill="#090D16" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Table Header -->
+    <text x="16" y="22" font-weight="700" fill="#64748B">CUST_NO</text>
+    <text x="110" y="22" font-weight="700" fill="#64748B">ALAMAT_FULL_TAGIH</text>
+    <text x="325" y="22" font-weight="700" fill="#64748B">PROVINSI</text>
+    <text x="440" y="22" font-weight="700" fill="#64748B">LAT / LON</text>
+    <text x="535" y="22" font-weight="700" fill="#64748B">STATUS</text>
+
+    <line x1="16" y1="30" x2="584" y2="30" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Row 1 -->
+    <text x="16" y="48" fill="#F8FAFC">ADR-882104</text>
+    <text x="110" y="48" fill="#94A3B8">Jl. Margonda Raya No. 100, Depok</text>
+    <text x="325" y="48" fill="#E2E8F0">JAWA BARAT</text>
+    <text x="440" y="48" fill="#38BDF8">-6.3728, 106.8317</text>
+    <text x="535" y="48" font-weight="700" fill="#10B981">✓ Geocoded</text>
+
+    <!-- Row 2 -->
+    <text x="16" y="68" fill="#F8FAFC">ADR-882105</text>
+    <text x="110" y="68" fill="#94A3B8">Jl. Sudirman Kav. 25, Setiabudi</text>
+    <text x="325" y="68" fill="#E2E8F0">DKI JAKARTA</text>
+    <text x="440" y="68" fill="#38BDF8">-6.2088, 106.8456</text>
+    <text x="535" y="68" font-weight="700" fill="#10B981">✓ Geocoded</text>
+
+    <!-- Row 3 -->
+    <text x="16" y="88" fill="#F8FAFC">ADR-882106</text>
+    <text x="110" y="88" fill="#94A3B8">Jl. Pemuda No. 45, Sekayu</text>
+    <text x="325" y="88" fill="#E2E8F0">JAWA TENGAH</text>
+    <text x="440" y="88" fill="#38BDF8">-6.9744, 110.4208</text>
+    <text x="535" y="88" font-weight="700" fill="#10B981">✓ Geocoded</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <rect width="1000" height="600" fill="#F8F7F4" rx="16"/>
+  <rect x="40" y="40" width="920" height="520" rx="12" fill="#FFFFFF" stroke="#EAE8E2" stroke-width="2"/>
+  <text x="70" y="80" font-family="sans-serif" font-size="18" font-weight="700" fill="#343630">SHAP Global Explanation Summary (Feature Risk Contribution)</text>
+  
+  <g transform="translate(100, 130)">
+    <line x1="300" y1="40" x2="300" y2="340" stroke="#EAE8E2" stroke-width="2"/>
+    <text x="300" y="30" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#77766F">0 (Baseline Model Impact)</text>
+
+    <!-- Feature 1: Revolving Line Utilization -->
+    <text x="280" y="80" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Revolving Line Utilization</text>
+    <rect x="300" y="65" width="260" height="22" rx="4" fill="#EF4444"/>
+    <text x="570" y="81" font-family="sans-serif" font-size="12" font-weight="700" fill="#EF4444">+1.84 (High Risk Push)</text>
+
+    <!-- Feature 2: Inquiries in last 6M -->
+    <text x="280" y="140" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Inquiries Last 6 Months (&gt;3)</text>
+    <rect x="300" y="125" width="190" height="22" rx="4" fill="#F59E0B"/>
+    <text x="500" y="141" font-family="sans-serif" font-size="12" font-weight="700" fill="#F59E0B">+1.25</text>
+
+    <!-- Feature 3: Debt Burden -->
+    <text x="280" y="200" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Debt-to-Income Ratio</text>
+    <rect x="300" y="185" width="140" height="22" rx="4" fill="#F59E0B"/>
+    <text x="450" y="201" font-family="sans-serif" font-size="12" font-weight="700" fill="#F59E0B">+0.95</text>
+
+    <!-- Feature 4: Annual Income (Protective) -->
+    <text x="280" y="260" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Annual Income (&gt; IDR 180M)</text>
+    <rect x="140" y="245" width="160" height="22" rx="4" fill="#10B981"/>
+    <text x="70" y="261" font-family="sans-serif" font-size="12" font-weight="700" fill="#10B981">-1.10 (Protective)</text>
+
+    <!-- Feature 5: Credit History Length -->
+    <text x="280" y="320" text-anchor="end" font-family="sans-serif" font-size="13" font-weight="600" fill="#343630">Credit History Tenure (&gt; 5 yrs)</text>
+    <rect x="190" y="305" width="110" height="22" rx="4" fill="#10B981"/>
+    <text x="120" y="321" font-family="sans-serif" font-size="12" font-weight="700" fill="#10B981">-0.72</text>
+  </g>
+</svg>
